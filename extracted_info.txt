@@ -1,0 +1,180 @@
+
+================================================================================
+CHARTE GRAPHIQUE: CHARTE GRAPHIQUE AGENCE BARTHIÉ.pptx
+================================================================================
+  [IMAGE] extracted_assets/charte\slide1_img1.png (664273x621582)
+  [GROUP IMAGE] extracted_assets/charte\slide1_grp_img2.png
+  [IMAGE] extracted_assets/charte\slide1_img3.png (4911331x4341700)
+  [GROUP IMAGE] extracted_assets/charte\slide1_grp_img4.png
+
+--- SLIDE 1 ---
+AGENCE BARTHIÉ
+PARIS
+ABCDEFGHI
+JKLMOPQRSTU
+VWXYZ
+DIDOT
+#1234567890
+BODONI
+abcdefghi
+jklmopqrstu
+vwxyz
+DIDOT
+POLY GREEN
+#2F4C2F
+PISTACCHIO
+#A8C76B
+RED VIOLET
+#C41C87
+POLY GREEN
+#2F4C2F
+SAGE
+#B5BD89
+PINK PANTHERE
+TBC 
+Aa
+Bb
+DIDOT
+DIDOT
+BODONI
+
+--- SLIDE 2 ---
+AGENCE BARTHIÉ
+PARIS
+AGENCE BARTHIÉ
+PARIS
+AGENCE BARTHIÉ
+PARIS
+  [IMAGE] extracted_assets/charte\slide3_img5.png (1114196x1042590)
+  [IMAGE] extracted_assets/charte\slide3_img6.png (1114196x1042590)
+  [IMAGE] extracted_assets/charte\slide3_img7.png (1121566x1017928)
+
+Total images extracted: 7
+
+================================================================================
+SALES PITCH: SALES PITCH.pptx
+================================================================================
+  [IMAGE] extracted_assets/sales_pitch\slide1_img1.png (460152x430579)
+
+--- SLIDE 1 ---
+Parce que vos clients ne se contentent pas du luxe, nous leur offrons l’exception
+AGENCE BARTHIÉ
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide2_img2.png (460152x430579)
+
+--- SLIDE 2 ---
+AGENCE BARTHIÉ
+PARIS
+Chez Agence Barthié, l’excellence n’est pas un objectif, c’est une évidence. 
+
+Nous réinventons le catering haut de gamme à travers des expériences gastronomiques sur-mesure, pensées pour une clientèle exigeante et raffinée. 
+
+Du cocktail intimiste aux réceptions d’exception, nous orchestrons chaque détail : sélection des produits, scénographie, service et art de la table.
+ Notre promesse : une gastronomie élégante, fluide et discrète, où le beau rencontre le bon, et où chaque création raconte une émotion. 
+Agence Barthié signe des moments uniques, où le plaisir culinaire devient une véritable expérience de luxe. 
+NOTRE MISSION
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide3_img3.png (460152x430579)
+  [GROUP IMAGE] extracted_assets/sales_pitch\slide3_grp_img4.png
+  [GROUP IMAGE] extracted_assets/sales_pitch\slide3_grp_img5.png
+  [GROUP IMAGE] extracted_assets/sales_pitch\slide3_grp_img6.png
+
+--- SLIDE 3 ---
+AGENCE BARTHIÉ
+PARIS
+Mixologie
+Cocktail signature, créations sur-mesure et spiritueux d’exception. 
+NOTRE OFFRE
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+Stewarding
+Une équipe formée à l’excellence pour des réceptions harmonieuses.
+Réception & Petits Fours
+Des pièces raffinées, alliant esthétique et saveurs subtiles.
+  [IMAGE] extracted_assets/sales_pitch\slide4_img7.jpg (2436639x3248852)
+  [IMAGE] extracted_assets/sales_pitch\slide4_img8.jpg (2436643x3248857)
+  [IMAGE] extracted_assets/sales_pitch\slide4_img9.jpg (2436644x3248858)
+  [IMAGE] extracted_assets/sales_pitch\slide4_img10.png (460152x430579)
+
+--- SLIDE 4 ---
+AGENCE BARTHIÉ
+PARIS
+L’art de la mixologie repose sur l’élégance du geste et la subtilité des saveurs. Nos barmen créent des cocktails d’exception, où chaque détail, du choix des spiritueux à la verrerie, devient une signature.
+Entre créativité et maitrise, nous offrons à vos invités une expérience sensorielle raffinée, mêlant émotion et plaisir du goût.  
+NOTRE OFFRE MIXOLOGIE
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide5_img11.jpg (2436639x3248852)
+  [IMAGE] extracted_assets/sales_pitch\slide5_img12.jpg (2436642x3248857)
+  [IMAGE] extracted_assets/sales_pitch\slide5_img13.jpg (2436644x3240856)
+  [IMAGE] extracted_assets/sales_pitch\slide5_img14.png (460152x430579)
+
+--- SLIDE 5 ---
+AGENCE BARTHIÉ
+PARIS
+Créations pensées comme de véritables bijoux gustatifs. Nos chefs conjuguent gourmandise et esthétique pour composer des assortiments délicats, salés ou sucrés, qui séduisent autant les yeux que le palais. Chaque pièce est une bouchée de saveurs authentiques, au service d’un moment d’exception.
+NOTRE OFFRE CATERING
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide6_img15.jpg (2436639x3240849)
+  [IMAGE] extracted_assets/sales_pitch\slide6_img16.jpg (2436642x3244368)
+  [IMAGE] extracted_assets/sales_pitch\slide6_img17.jpg (2436644x3225784)
+  [IMAGE] extracted_assets/sales_pitch\slide6_img18.png (460152x430579)
+
+--- SLIDE 6 ---
+AGENCE BARTHIÉ
+PARIS
+Symbole d’élégance et de vigueur, notre équipe incarne l’esprit du service à la française. Nos hôtes et hôtesses assurent un accueil irréprochable, une coordination fluide et une présence discrète mais essentielle. Chaque interaction est pensée pour valoriser votre évènement et offrir à vos convives une expérience empreinte de courtoisie et d’excellence.
+NOTRE OFFRE STEWARDING
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide7_img19.png (2344223x1318626)
+  [IMAGE] extracted_assets/sales_pitch\slide7_img20.png (1135301x354781)
+  [IMAGE] extracted_assets/sales_pitch\slide7_img21.png (1630486x917148)
+  [IMAGE] extracted_assets/sales_pitch\slide7_img22.png (1892661x582256)
+  [IMAGE] extracted_assets/sales_pitch\slide7_img23.png (1854834x927417)
+  [IMAGE] extracted_assets/sales_pitch\slide7_img24.png (460152x430579)
+
+--- SLIDE 7 ---
+AGENCE BARTHIÉ
+PARIS
+NOS CLIENTS
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+  [IMAGE] extracted_assets/sales_pitch\slide8_img25.png (460152x430579)
+
+--- SLIDE 8 ---
+AGENCE BARTHIÉ
+PARIS
+NOTRE PROCESSUS
+INFORMATIONS CONFIDENTIELLES ET PERSONNELLES À L’AGENCE BARTHIÉ
+Nous vous transmettons une proposition sur-mesure. Chaque offre et conçue pour refléter l’image de votre évènement et valoriser votre expérience. 
+PROPOSITION D’OFFRE(S)
+Nous recueillons les informations essentielles sur votre projet pour comprendre vos envies. Cette étape permet de définir les grandes lignes de votre demande. 
+PRISE DE CONTACT
+Nous analysons avec précisions vos besoins et objectifs et les spécificités de votre évènement. Cette évaluation détaillée nous permet d’élaborer une réponse cohérente, adapté à votre demande et votre budget.
+ÉVALUATION DE LA DEMANDE
+Après ajustements éventuels, le devis est validé conjointement. Cette étape formalise notre engagement et marque le point de départ de la préparation opérationnelle. 
+VALIDATION DU DEVIS
+Nos équipes coordonnent et assurent la mise en œuvre complète de la prestation dans le respect du cahier des charges établi. 
+RÉALISATION DE L’ÉVÈNEMENT
+Du début à la fin, nous garantissons un suivi rigoureux, une exécution irréprochable pour un résultat à la hauteur de vos attentes et en accord avec les standards de qualité de l’Agence Barthié. 
+
+
+Total images extracted: 25
+
+================================================================================
+CARTE VISITE: CARTE VISITE.pptx
+================================================================================
+  [IMAGE] extracted_assets/carte_visite\slide1_img1.png (3859860x3859860)
+
+--- SLIDE 1 ---
+AGENCE BARTHIÉ
+PARIS
+SERVICES CATERING, MIXOLOGIE, STEWARDING 
+& CONCIERGERIE HAUT-DE-GAMME
+  [IMAGE] extracted_assets/carte_visite\slide2_img2.png (8070180x8070180)
+
+--- SLIDE 2 ---
+AGENCE BARTHIÉ
+PARIS
++33 6 36 20 81 28
+agencebarthie@gmail.com
+Corentin BARTHIÉ
+
+Total images extracted: 2

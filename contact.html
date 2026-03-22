@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contactez l'Agence Barthié – Disponible 7j/7, nous serons ravis de donner vie à vos idées." />
+  <title>Contact – Agence Barthié</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-ab.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="custom-cursor"></div>
+  <div id="custom-cursor-follower"></div>
+
+  <nav id="navbar"></nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero hero--page">
+    <div class="hero__image-wrapper">
+      <div class="hero__image" style="background-image: url('/assets/images/hero/contact-hero.jpg');"></div>
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__subtitle reveal">Agence Barthié</p>
+      <h1 class="hero__title reveal">Donnons vie à vos idées</h1>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section id="contact-section" class="section section--contact">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Colonne gauche : Infos -->
+        <div class="contact-info reveal">
+          <img src="/logo-ab.svg" alt="Agence Barthié" class="contact-info__logo" />
+          <h2 class="contact-info__title">Prendre contact</h2>
+          <p class="contact-info__text">Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.</p>
+          
+          <div class="contact-info__details">
+            <div class="contact-info__item">
+              <span class="contact-info__label">Email</span>
+              <a href="mailto:contact@agence-barthie.fr">contact@agence-barthie.fr</a>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">WhatsApp</span>
+              <a href="https://wa.me/33636208128" target="_blank" rel="noopener">+33 6 36 20 81 28</a>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__label">Instagram</span>
+              <a href="https://instagram.com/agence_barthie_" target="_blank" rel="noopener">@agence_barthie_</a>
+            </div>
+          </div>
+
+          <p class="contact-info__availability">Disponible <strong>7j/7</strong></p>
+        </div>
+
+        <!-- Colonne droite : Formulaire -->
+        <div class="contact-form-wrapper reveal">
+          <h3 class="contact-form__title">Parlons de vos besoins</h3>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="contact-name">Nom complet</label>
+              <input type="text" id="contact-name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-phone">Téléphone</label>
+              <input type="tel" id="contact-phone" name="phone" />
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Objet</label>
+              <input type="text" id="contact-subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Votre message</label>
+              <textarea id="contact-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Envoyer</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+  <div id="scroll-progress"></div>
+
+  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/pages/contact/contact.js"></script>
+</body>
+</html>

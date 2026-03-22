@@ -1,0 +1,20 @@
+/* ============================================================
+   PAGE HERO STYLES
+   Shared hero styling for sub-pages
+   ============================================================ */
+
+/* PageHero parallax effect on page heroes */
+.hero--page .hero__image {
+  transform: scale(1.05);
+  transition: transform 0.1s linear;
+}
+
+/* Subtle zoom-in on load */
+.hero--page.is-loaded .hero__image {
+  animation: heroZoom 20s ease forwards;
+}
+
+@keyframes heroZoom {
+  from { transform: scale(1.05); }
+  to { transform: scale(1.15); }
+}

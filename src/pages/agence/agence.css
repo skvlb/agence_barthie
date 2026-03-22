@@ -1,0 +1,96 @@
+/* ============================================================
+   AGENCE PAGE – Page-specific styles
+   ============================================================ */
+
+/* Présentation */
+.section--presentation {
+  padding: var(--space-section) 0;
+}
+
+.agence-intro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.agence-intro .section__title {
+  text-align: left;
+  margin-bottom: var(--space-lg);
+}
+
+.agence-intro__text p {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 2;
+  margin-bottom: var(--space-md);
+}
+
+.agence-intro__text blockquote {
+  font-family: var(--font-accent);
+  font-size: var(--text-xl);
+  font-style: italic;
+  color: var(--color-accent);
+  border-left: 2px solid var(--color-accent);
+  padding-left: var(--space-lg);
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.agence-intro__highlight {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-white) !important;
+  text-align: center;
+  margin: var(--space-xl) 0 !important;
+}
+
+/* Fondateur */
+.section--fondateur {
+  background: var(--color-bg-alt);
+  padding: var(--space-section) 0;
+}
+
+.fondateur-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.fondateur-grid__image {
+  overflow: hidden;
+}
+
+.fondateur-grid__image img {
+  width: 100%;
+  height: auto;
+  filter: grayscale(0.3);
+  transition: filter var(--transition-medium);
+}
+
+.fondateur-grid__image:hover img {
+  filter: grayscale(0);
+}
+
+.fondateur-grid__name {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-white);
+  margin-bottom: var(--space-xs);
+}
+
+.fondateur-grid__role {
+  font-family: var(--font-accent);
+  font-size: var(--text-md);
+  color: var(--color-accent);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .fondateur-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}

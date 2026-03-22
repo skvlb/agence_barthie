@@ -1,0 +1,72 @@
+/* ============================================================
+   ACCUEIL PAGE – Page-specific styles
+   ============================================================ */
+
+/* Hero home specific */
+.hero--home .hero__video-wrapper video {
+  filter: brightness(0.6);
+}
+
+.hero--home.is-loaded .hero__content {
+  animation: fadeInUp 1.2s var(--ease-smooth) forwards;
+}
+
+/* Valeurs section */
+.section--valeurs {
+  background: var(--color-bg-alt);
+}
+
+/* Univers preview */
+.section--univers-preview {
+  padding-bottom: var(--space-2xl);
+}
+
+.section--univers-preview .btn {
+  display: block;
+  width: fit-content;
+  margin: var(--space-xl) auto 0;
+}
+
+/* Portfolio preview */
+.section--portfolio-preview {
+  background: var(--color-bg-alt);
+}
+
+.portfolio-grid--preview {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.section--portfolio-preview .btn {
+  display: block;
+  width: fit-content;
+  margin: var(--space-xl) auto 0;
+}
+
+/* Processus */
+.section--processus {
+  background: var(--color-bg);
+}
+
+/* Clients */
+.section--clients {
+  padding: var(--space-xl) 0;
+  background: var(--color-bg-alt);
+}
+
+/* CTA */
+.section--cta {
+  text-align: center;
+  padding: var(--space-section) 0;
+}
+
+.section--cta .btn {
+  margin-top: var(--space-md);
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid--preview {
+    grid-template-columns: 1fr;
+  }
+}

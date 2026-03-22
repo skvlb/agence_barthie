@@ -1,0 +1,55 @@
+/* ============================================================
+   SCROLL PROGRESS STYLES
+   ============================================================ */
+
+#scroll-progress {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 48px;
+  height: 48px;
+  z-index: var(--z-scroll-progress);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#scroll-progress.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  cursor: none;
+}
+
+.scroll-progress__svg {
+  width: 48px;
+  height: 48px;
+  transform: rotate(-90deg);
+}
+
+.scroll-progress__track {
+  fill: none;
+  stroke: var(--color-border);
+  stroke-width: 2;
+}
+
+.scroll-progress__bar {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: 2;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.1s ease;
+}
+
+.scroll-progress__arrow {
+  position: absolute;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+#scroll-progress:hover .scroll-progress__arrow {
+  color: var(--color-accent);
+}

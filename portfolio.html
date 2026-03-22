@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Notre Portfolio – Découvrez nos réalisations : des événements de luxe et des prestations haut de gamme qui marquent les esprits." />
+  <title>Notre Portfolio – Agence Barthié</title>
+  <link rel="icon" type="image/svg+xml" href="/logo-ab.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+</head>
+<body>
+  <div id="custom-cursor"></div>
+  <div id="custom-cursor-follower"></div>
+
+  <nav id="navbar"></nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero" class="hero hero--page">
+    <div class="hero__image-wrapper">
+      <div class="hero__image" style="background-image: url('/assets/images/hero/portfolio-hero.jpg');"></div>
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__subtitle reveal">Agence Barthié</p>
+      <h1 class="hero__title reveal">Notre Portfolio</h1>
+    </div>
+  </section>
+
+  <!-- ========== INTRO ========== -->
+  <section id="portfolio-intro" class="section section--portfolio-intro">
+    <div class="container">
+      <p class="portfolio-intro__text reveal">Nos réalisations témoignent de notre savoir-faire : des prestations soignées et des évènements qui marquent les esprits</p>
+    </div>
+  </section>
+
+  <!-- ========== FILTRES ========== -->
+  <section id="portfolio-filters" class="section section--portfolio-filters">
+    <div class="container">
+      <div id="filter-buttons" class="filter-buttons">
+        <!-- Rempli dynamiquement par portfolio.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALERIE MASONRY ========== -->
+  <section id="portfolio-gallery" class="section section--portfolio-gallery">
+    <div class="container">
+      <div id="portfolio-grid" class="portfolio-grid">
+        <!-- Rempli dynamiquement par portfolio.js -->
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+  <div id="scroll-progress"></div>
+
+  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="/src/pages/portfolio/portfolio.js"></script>
+</body>
+</html>

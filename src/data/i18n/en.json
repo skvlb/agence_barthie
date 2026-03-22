@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "accueil": "Home",
+    "agence": "The Agency",
+    "univers": "Our Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Event & Concierge",
+    "title": "High-end",
+    "tagline": "Because your clients don't settle for luxury, we offer them the exceptional"
+  },
+  "valeurs": {
+    "excellence": { "title": "Bespoke Excellence", "text": "Built around each client's unique identity, to precisely reflect their vision" },
+    "equipe": { "title": "Qualified Team", "text": "An expert, rigorous and creative team, guaranteeing Barthié quality and excellence" },
+    "approche": { "title": "Professional Approach", "text": "It rests on discipline, respect for luxury standards and total quality" }
+  },
+  "cta": {
+    "title": "Bring your ideas to life",
+    "subtitle": "We would be delighted to discuss with you",
+    "button": "Contact us"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "text": "Our team will always be happy to create what you or your clients need.",
+    "availability": "Available 7 days a week",
+    "form_title": "Let's talk about your needs",
+    "send": "Send"
+  },
+  "footer": {
+    "copyright": "All rights reserved."
+  }
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+docs_content.txt
+extract_docs.py
+*.pptx

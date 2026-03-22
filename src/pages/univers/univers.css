@@ -1,0 +1,22 @@
+/* ============================================================
+   UNIVERS PAGE – Page-specific styles
+   ============================================================ */
+
+.section--univers-intro {
+  background: var(--color-bg-alt);
+  padding: var(--space-xl) 0;
+  text-align: center;
+}
+
+.univers-intro__text {
+  font-family: var(--font-accent);
+  font-size: var(--text-md);
+  color: var(--color-text);
+  line-height: 1.9;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section--services {
+  padding: var(--space-section) 0;
+}

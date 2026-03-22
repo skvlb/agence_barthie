@@ -1,0 +1,87 @@
+/* ============================================================
+   PROCESS TIMELINE STYLES
+   ============================================================ */
+
+.process-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.process-step {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: flex-start;
+}
+
+.process-step__number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.process-step__number span {
+  font-family: var(--font-heading);
+  font-size: var(--text-2xl);
+  color: var(--color-accent);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-accent);
+  border-radius: 50%;
+}
+
+.process-step__line {
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--color-accent), transparent);
+  margin-top: var(--space-sm);
+}
+
+.process-step:last-child .process-step__line {
+  display: none;
+}
+
+.process-step__content {
+  padding-top: 0.5rem;
+}
+
+.process-step__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-xl);
+  color: var(--color-white);
+  margin-bottom: var(--space-xs);
+}
+
+.process-step__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.8;
+}
+
+.process-step__note {
+  display: inline-block;
+  margin-top: var(--space-xs);
+  font-size: var(--text-xs);
+  color: var(--color-accent);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .process-step__number span {
+    width: 44px;
+    height: 44px;
+    font-size: var(--text-lg);
+  }
+
+  .process-step__line {
+    height: 40px;
+  }
+}

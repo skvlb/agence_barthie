@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "accueil": "Accueil",
+    "agence": "L'Agence",
+    "univers": "Nos Univers",
+    "portfolio": "Notre Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Event & Conciergerie",
+    "title": "Haut de gamme",
+    "tagline": "Parce que vos clients ne se contentent pas du luxe, nous leur offrons l'exception"
+  },
+  "valeurs": {
+    "excellence": { "title": "Excellence sur mesure", "text": "Construite autour de l'identité propre à chaque client, afin de refléter précisément sa vision" },
+    "equipe": { "title": "Équipe qualifiée", "text": "Une équipe experte, rigoureuse et créative, garante de la qualité et de l'excellence Barthié" },
+    "approche": { "title": "Approche professionnelle", "text": "Elle repose sur la discipline, le respect des standards du luxe et la qualité totale" }
+  },
+  "cta": {
+    "title": "Donnez vie à vos idées",
+    "subtitle": "Nous serons ravis d'échanger avec vous",
+    "button": "Nous contacter"
+  },
+  "contact": {
+    "title": "Prendre contact",
+    "text": "Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.",
+    "availability": "Disponible 7j/7",
+    "form_title": "Parlons de vos besoins",
+    "send": "Envoyer"
+  },
+  "footer": {
+    "copyright": "Tous droits réservés."
+  }
+}
