@@ -16,26 +16,23 @@ export function initFooter() {
 
   footer.innerHTML = `
     <div class="footer__inner">
-      <div class="footer__top">
-        <div class="footer__brand">
-          <img src="/images/logos/logo-ab-full-white.png" alt="Agence Barthié" class="footer__logo-img" />
-        </div>
-        <nav class="footer__nav">
-          <a href="/" class="footer__link">Accueil</a>
-          <a href="/agence.html" class="footer__link">L'Agence</a>
-          <a href="/univers.html" class="footer__link">Nos Univers</a>
-          <a href="/portfolio.html" class="footer__link">Notre Portfolio</a>
-          <a href="/contact.html" class="footer__link">Contact</a>
-        </nav>
-        <div class="footer__contact">
-          <a href="mailto:contact@agence-barthie.fr" class="footer__link">contact@agence-barthie.fr</a>
-          <a href="https://wa.me/33636208128" target="_blank" rel="noopener" class="footer__link">+33 6 36 20 81 28</a>
-          <a href="https://instagram.com/agence_barthie_" target="_blank" rel="noopener" class="footer__link">@agence_barthie_</a>
-        </div>
+      <div class="footer__brand">
+        <h2 class="footer__brand-title">AGENCE BARTHIÉ</h2>
+        <p class="footer__brand-subtitle">EVENT & CONCIERGERIE</p>
       </div>
+      
+      <nav class="footer__nav">
+        <a href="/" class="footer__link">Accueil</a>
+        <a href="/agence.html" class="footer__link">L'Agence</a>
+        <a href="/univers.html" class="footer__link">Nos Univers</a>
+        <a href="/portfolio.html" class="footer__link">Notre Portfolio</a>
+        <a href="/contact.html" class="footer__link">Contact</a>
+        <a href="https://instagram.com/agence_barthie_" target="_blank" rel="noopener" class="footer__link">Instagram</a>
+      </nav>
+
       <div class="footer__bottom">
-        <p class="footer__page-name">${pageName}</p>
-        <p class="footer__copyright">&copy; ${new Date().getFullYear()} Agence Barthié. Tous droits réservés.</p>
+        <p class="footer__copyright">&copy; ${new Date().getFullYear()} AGENCE BARTHIÉ &mdash; TOUS DROITS RÉSERVÉS</p>
+        <span class="footer__sep">|</span>
         <a href="#" target="_blank" rel="noopener" class="footer__credit">Site par K&V Studio</a>
       </div>
     </div>
