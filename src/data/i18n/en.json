@@ -4,7 +4,8 @@
     "agence": "The Agency",
     "univers": "Our Services",
     "portfolio": "Portfolio",
-    "contact": "Contact"
+    "contact": "Contact",
+    "decouvrir": "Discover"
   },
   "hero": {
     "subtitle": "Event & Concierge",
@@ -16,19 +17,72 @@
     "equipe": { "title": "Qualified Team", "text": "An expert, rigorous and creative team, guaranteeing Barthié quality and excellence" },
     "approche": { "title": "Professional Approach", "text": "It rests on discipline, respect for luxury standards and total quality" }
   },
+  "home": {
+    "univers_title": "Our Services",
+    "univers_subtitle": "We bring together private concierge, high-end catering, specialized hosting, and luxury event organization to create services executed with almost silent precision",
+    "univers_btn": "Explore our services",
+    "portfolio_title": "Our Portfolio",
+    "portfolio_subtitle": "Our past work speaks to our expertise: meticulously crafted services and events that leave a lasting impression",
+    "portfolio_btn": "View portfolio",
+    "process_title": "Our Process",
+    "process_subtitle": "From start to finish, we guarantee rigorous follow-up and flawless execution for a result that exceeds your expectations and aligns with Agence Barthié's quality standards.",
+    "clients_title": "We have operated for"
+  },
+  "agence": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Our Agency",
+    "intro_title": "Agence Barthié",
+    "intro_p1": "Agence Barthié was founded by Corentin Barthié, whose background was built in Parisian palaces. Ritz, Plaza, Peninsula... So many places where he learned that perfection is never an extra:",
+    "intro_quote": "It is the silent foundation upon which everything rests, like a silver tray that refuses to tremble.",
+    "intro_p2": "At a very young age, he discovered the demands of flawless service, working with international clients and wealthy families, where every detail becomes a language and every gesture a commitment. It is in this demanding environment that his conviction was born: these standards of excellence must be accessible to events that claim true luxury.",
+    "intro_p3": "Agence Barthié was then built around a simple idea: to gather a hand-picked team, trained in the codes of high-end service, capable of working with almost invisible precision, that precision which is only noticed when it is missing.",
+    "intro_highlight": "We leave nothing to chance.",
+    "intro_p4": "Today, Agence Barthié offers a clear vision: to design experiences where millimeter-perfect service, mastery of codes, and demanding attention to detail create a result so fluid that one might believe it happened naturally, even though it rests on work that no one sees.",
+    "founder_role": "Creative Director – Event Experience"
+  },
+  "univers": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Our Services",
+    "intro_text": "We organize our offerings around two distinct areas of expertise: a bespoke private concierge service, guaranteeing a precise and anticipated response to every request, and exceptional event services: high-end catering, premium hosting, and luxury orchestration, executed with impeccable exactness"
+  },
+  "portfolio": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Our Portfolio",
+    "intro_text": "Our past work speaks to our expertise: meticulously crafted services and events that leave a lasting impression",
+    "filters": {
+      "all": "All",
+      "privatisation": "Venue Privatization",
+      "catering": "Catering",
+      "chauffeurs": "Private Drivers",
+      "dog_sitting": "Dog Sitting",
+      "livraison": "Delivery",
+      "picnic": "Picnics",
+      "bagages": "Luggage Transfer",
+      "decoration": "Decoration",
+      "accompagnement": "Client Accompaniment"
+    }
+  },
   "cta": {
     "title": "Bring your ideas to life",
     "subtitle": "We would be delighted to discuss with you",
     "button": "Contact us"
   },
   "contact": {
-    "title": "Get in touch",
-    "text": "Our team will always be happy to create what you or your clients need.",
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Let's bring your ideas to life",
+    "info_title": "Get in touch",
+    "hero_text": "Our team will always be happy to create what you or your clients need.",
     "availability": "Available 7 days a week",
     "form_title": "Let's talk about your needs",
+    "form_name": "Full name",
+    "form_email": "Email",
+    "form_phone": "Phone",
+    "form_subject": "Subject",
+    "form_message": "Your message",
     "send": "Send"
   },
   "footer": {
-    "copyright": "All rights reserved."
+    "copyright": "AGENCE BARTHIÉ &mdash; ALL RIGHTS RESERVED",
+    "credit": "Website by K&V Studio"
   }
 }

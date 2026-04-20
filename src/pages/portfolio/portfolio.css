@@ -96,12 +96,11 @@
   background: rgba(26, 43, 26, 0.5);
 }
 
-/* AB watermark on photos */
-.portfolio-item__watermark {
-  font-family: var(--font-heading);
-  font-size: var(--text-3xl);
-  color: rgba(255, 255, 255, 0.15);
-  letter-spacing: 0.3em;
+/* AB logo watermark on photos */
+.portfolio-item__watermark-logo {
+  width: 120px;
+  height: auto;
+  opacity: 0.15;
   pointer-events: none;
   position: absolute;
   user-select: none;

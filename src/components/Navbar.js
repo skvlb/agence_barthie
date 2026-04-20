@@ -2,6 +2,8 @@
    NAVBAR COMPONENT
    ============================================================ */
 
+import { getLang, setLang } from '../utils/i18n.js';
+
 export function initNavbar() {
   const navbar = document.getElementById('navbar');
   if (!navbar) return;
@@ -22,18 +24,18 @@ export function initNavbar() {
       </a>
 
       <ul class="navbar__links">
-        <li><a href="/" class="navbar__link ${getActiveClass('/')}">Accueil</a></li>
-        <li><a href="/agence.html" class="navbar__link ${getActiveClass('agence')}">L'Agence</a></li>
-        <li><a href="/univers.html" class="navbar__link ${getActiveClass('univers')}">Nos Univers</a></li>
-        <li><a href="/portfolio.html" class="navbar__link ${getActiveClass('portfolio')}">Notre Portfolio</a></li>
-        <li><a href="/contact.html" class="navbar__link ${getActiveClass('contact')}">Contact</a></li>
+        <li><a href="/" class="navbar__link ${getActiveClass('/')}" data-i18n="nav.accueil">Accueil</a></li>
+        <li><a href="/agence.html" class="navbar__link ${getActiveClass('agence')}" data-i18n="nav.agence">L'Agence</a></li>
+        <li><a href="/univers.html" class="navbar__link ${getActiveClass('univers')}" data-i18n="nav.univers">Nos Univers</a></li>
+        <li><a href="/portfolio.html" class="navbar__link ${getActiveClass('portfolio')}" data-i18n="nav.portfolio">Notre Portfolio</a></li>
+        <li><a href="/contact.html" class="navbar__link ${getActiveClass('contact')}" data-i18n="nav.contact">Contact</a></li>
       </ul>
 
       <div class="navbar__right">
         <div class="navbar__lang">
-          <button class="navbar__lang-btn is-active" data-lang="fr">FR</button>
+          <button class="navbar__lang-btn ${getLang() === 'fr' ? 'is-active' : ''}" data-lang="fr">FR</button>
           <span class="navbar__lang-sep">|</span>
-          <button class="navbar__lang-btn" data-lang="en">EN</button>
+          <button class="navbar__lang-btn ${getLang() === 'en' ? 'is-active' : ''}" data-lang="en">EN</button>
         </div>
         <button class="navbar__burger" id="navbar-burger" aria-label="Menu">
           <span></span>
@@ -72,4 +74,23 @@ export function initNavbar() {
       document.body.classList.toggle('no-scroll');
     });
   }
+
+  // Language switcher
+  const langBtns = navbar.querySelectorAll('.navbar__lang-btn');
+  langBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const lang = e.target.dataset.lang;
+      if (lang !== getLang()) {
+        setLang(lang);
+        langBtns.forEach(b => b.classList.remove('is-active'));
+        e.target.classList.add('is-active');
+        
+        // Force re-render of components that use JS variables for titles (like process timeline and services)
+        // Since it's a static site, the simplest robust way to update JS-rendered components is reloading the page
+        // But to keep it smooth for static text, we've implemented translatePage.
+        // For JS data (services, portfolio filters), we trigger a reload to ensure a perfect state.
+        window.location.reload();
+      }
+    });
+  });
 }

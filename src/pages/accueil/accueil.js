@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <a href="/portfolio.html" class="portfolio-item reveal">
         <img src="${item.image}" alt="${item.title}" class="portfolio-item__image" loading="lazy" />
         <div class="portfolio-item__overlay">
-          <span class="portfolio-item__watermark">AB</span>
+          <img src="/images/logos/logo-ab-full-white.png" alt="" class="portfolio-item__watermark-logo" />
         </div>
       </a>
     `).join('');

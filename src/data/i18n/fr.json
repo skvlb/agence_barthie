@@ -4,7 +4,8 @@
     "agence": "L'Agence",
     "univers": "Nos Univers",
     "portfolio": "Notre Portfolio",
-    "contact": "Contact"
+    "contact": "Contact",
+    "decouvrir": "Découvrir"
   },
   "hero": {
     "subtitle": "Event & Conciergerie",
@@ -16,19 +17,72 @@
     "equipe": { "title": "Équipe qualifiée", "text": "Une équipe experte, rigoureuse et créative, garante de la qualité et de l'excellence Barthié" },
     "approche": { "title": "Approche professionnelle", "text": "Elle repose sur la discipline, le respect des standards du luxe et la qualité totale" }
   },
+  "home": {
+    "univers_title": "Nos Univers",
+    "univers_subtitle": "Nous réunissons conciergerie privée, traiteur haut de gamme, accueil spécialisé et organisation d'évènements de luxe pour créer des prestations exécutées avec une précision presque silencieuse",
+    "univers_btn": "Explorer nos univers",
+    "portfolio_title": "Notre Portfolio",
+    "portfolio_subtitle": "Nos réalisations témoignent de notre savoir-faire : des prestations soignées et des évènements qui marquent les esprits",
+    "portfolio_btn": "Voir le portfolio",
+    "process_title": "Notre Processus",
+    "process_subtitle": "Du début à la fin, nous garantissons un suivi rigoureux, une exécution irréprochable pour un résultat à la hauteur de vos attentes et en accord avec les standards de qualité de l'Agence Barthié.",
+    "clients_title": "Nous avons opéré pour"
+  },
+  "agence": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Notre Agence",
+    "intro_title": "Agence Barthié",
+    "intro_p1": "L'Agence Barthié a été fondée par Corentin Barthié, dont le parcours s'est construit au sein des palaces parisiens. Ritz, Plaza, Peninsula… Autant d'adresses où il a appris que la perfection n'est jamais un supplément :",
+    "intro_quote": "C'est la base silencieuse sur laquelle tout repose, comme un plateau d'argent qui refuse de trembler.",
+    "intro_p2": "Très jeune, il découvre les exigences d'un service irréprochable, auprès de clients internationaux et de familles fortunées, où chaque détail devient un langage et chaque geste, un engagement. C'est dans cet environnement exigeant que naît sa conviction : ces standards d'excellence doivent être accessibles aux événements qui prétendent aux véritables luxes.",
+    "intro_p3": "L'Agence Barthié se construit alors autour d'une idée simple : réunir une équipe triée sur le volet, formée aux codes du haut-de-gamme, capable de travailler avec une précision presque invisible, cette précision que l'on remarque seulement quand elle manque.",
+    "intro_highlight": "Nous ne laissons rien au hasard.",
+    "intro_p4": "Aujourd'hui, l'Agence Barthié propose une vision claire : concevoir des expériences où le service millimétré, la maîtrise des codes et l'exigence du détail créent un résultat si fluide, qu'on pourrait croire qu'il s'est produit naturellement, alors qu'il repose sur un travail que personne ne voit.",
+    "founder_role": "Creative Director – Event Experience"
+  },
+  "univers": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Nos Univers",
+    "intro_text": "Nous articulons nos offres autour de deux expertises distinctes : une conciergerie privée sur-mesure, garantissant une réponse précise et anticipée à chaque demande, et des prestations événementielles d'exception : traiteur haut de gamme, accueil premium, et orchestration de luxe, exécutées avec une exactitude irréprochable"
+  },
+  "portfolio": {
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Notre Portfolio",
+    "intro_text": "Nos réalisations témoignent de notre savoir-faire : des prestations soignées et des évènements qui marquent les esprits",
+    "filters": {
+      "all": "Tous",
+      "privatisation": "Privatisation de Lieux",
+      "catering": "Catering",
+      "chauffeurs": "Chauffeurs Privé",
+      "dog_sitting": "Dog Sitting",
+      "livraison": "Livraison",
+      "picnic": "Picnic",
+      "bagages": "Transfert de Bagages",
+      "decoration": "Décoration",
+      "accompagnement": "Accompagnement Client"
+    }
+  },
   "cta": {
     "title": "Donnez vie à vos idées",
     "subtitle": "Nous serons ravis d'échanger avec vous",
     "button": "Nous contacter"
   },
   "contact": {
-    "title": "Prendre contact",
-    "text": "Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.",
+    "hero_subtitle": "Agence Barthié",
+    "hero_title": "Donnons vie à vos idées",
+    "info_title": "Prendre contact",
+    "hero_text": "Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.",
     "availability": "Disponible 7j/7",
     "form_title": "Parlons de vos besoins",
+    "form_name": "Nom complet",
+    "form_email": "Email",
+    "form_phone": "Téléphone",
+    "form_subject": "Objet",
+    "form_message": "Votre message",
     "send": "Envoyer"
   },
   "footer": {
-    "copyright": "Tous droits réservés."
+    "copyright": "AGENCE BARTHIÉ &mdash; TOUS DROITS RÉSERVÉS",
+    "credit": "Site par K&V Studio"
   }
 }

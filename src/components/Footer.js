@@ -22,18 +22,18 @@ export function initFooter() {
       </div>
       
       <nav class="footer__nav">
-        <a href="/" class="footer__link">Accueil</a>
-        <a href="/agence.html" class="footer__link">L'Agence</a>
-        <a href="/univers.html" class="footer__link">Nos Univers</a>
-        <a href="/portfolio.html" class="footer__link">Notre Portfolio</a>
-        <a href="/contact.html" class="footer__link">Contact</a>
+        <a href="/" class="footer__link" data-i18n="nav.accueil">Accueil</a>
+        <a href="/agence.html" class="footer__link" data-i18n="nav.agence">L'Agence</a>
+        <a href="/univers.html" class="footer__link" data-i18n="nav.univers">Nos Univers</a>
+        <a href="/portfolio.html" class="footer__link" data-i18n="nav.portfolio">Notre Portfolio</a>
+        <a href="/contact.html" class="footer__link" data-i18n="nav.contact">Contact</a>
         <a href="https://instagram.com/agence_barthie_" target="_blank" rel="noopener" class="footer__link">Instagram</a>
       </nav>
 
       <div class="footer__bottom">
-        <p class="footer__copyright">&copy; ${new Date().getFullYear()} AGENCE BARTHIÉ &mdash; TOUS DROITS RÉSERVÉS</p>
+        <p class="footer__copyright">&copy; ${new Date().getFullYear()} <span data-i18n="footer.copyright">AGENCE BARTHIÉ &mdash; TOUS DROITS RÉSERVÉS</span></p>
         <span class="footer__sep">|</span>
-        <a href="#" target="_blank" rel="noopener" class="footer__credit">Site par K&V Studio</a>
+        <a href="#" target="_blank" rel="noopener" class="footer__credit" data-i18n="footer.credit">Site par K&V Studio</a>
       </div>
     </div>
   `;

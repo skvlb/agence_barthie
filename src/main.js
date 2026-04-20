@@ -27,11 +27,18 @@ import { initCustomCursor } from './components/CustomCursor.js';
 import { initScrollProgress } from './components/ScrollProgress.js';
 import { initScrollReveal } from './components/ScrollReveal.js';
 
+// Utils
+import { initI18n, translatePage } from './utils/i18n.js';
+
 // Initialize global components
 document.addEventListener('DOMContentLoaded', () => {
+  initI18n(); // Must be first to translate before dynamic render
   initNavbar();
   initFooter();
   initCustomCursor();
   initScrollProgress();
   initScrollReveal();
+  
+  // Re-run translatePage to catch dynamically injected elements (Navbar, Footer)
+  translatePage();
 });
