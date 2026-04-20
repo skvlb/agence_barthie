@@ -48,18 +48,37 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Setup portfolio grid (placeholder items)
+  // Setup portfolio grid with curated real content
   const grid = document.getElementById('portfolio-grid');
   if (grid) {
-    // Generate placeholder portfolio items
-    const placeholderItems = Array.from({ length: 12 }, (_, i) => ({
-      id: i + 1,
-      image: `/assets/images/portfolio/portfolio-${i + 1}.jpg`,
-      category: services[i % services.length].id,
-      title: `Réalisation ${i + 1}`,
-    }));
+    const portfolioItems = [
+      { id: 1,  image: '/assets/images/portfolio/portfolio-01.jpg', category: 'privatisation-monuments', title: 'Soirée privée au Louvre' },
+      { id: 2,  image: '/assets/images/portfolio/portfolio-02.jpg', category: 'privatisation-monuments', title: 'Réception sous la Pyramide' },
+      { id: 3,  image: '/assets/images/portfolio/portfolio-03.jpg', category: 'privatisation-monuments', title: 'Arc de Triomphe — Vue privilégiée' },
+      { id: 4,  image: '/assets/images/portfolio/portfolio-04.jpg', category: 'mixologie',               title: 'Catering haut de gamme' },
+      { id: 5,  image: '/assets/images/portfolio/portfolio-05.jpg', category: 'privatisation-monuments', title: 'Péniche — Croisière privée' },
+      { id: 6,  image: '/assets/images/portfolio/portfolio-06.jpg', category: 'mixologie',               title: 'Service traiteur raffiné' },
+      { id: 7,  image: '/assets/images/portfolio/portfolio-07.jpg', category: 'stewarding',              title: 'Chauffeur privé — Paris by night' },
+      { id: 8,  image: '/assets/images/portfolio/portfolio-08.jpg', category: 'planification-evenements', title: 'Livraison florale premium' },
+      { id: 9,  image: '/assets/images/portfolio/portfolio-09.jpg', category: 'planification-evenements', title: 'Picnic chic — Tour Eiffel' },
+      { id: 10, image: '/assets/images/portfolio/portfolio-10.jpg', category: 'privatisation-monuments', title: 'Arc de Triomphe — Sunset' },
+      { id: 11, image: '/assets/images/portfolio/portfolio-11.jpg', category: 'privatisation-monuments', title: 'Événement au Louvre' },
+      { id: 12, image: '/assets/images/portfolio/portfolio-12.jpg', category: 'animation',              title: 'Animation gastronomique' },
+      { id: 13, image: '/assets/images/portfolio/portfolio-13.jpg', category: 'dog-sitting-baby-sitting', title: 'Dog sitting — Paris' },
+      { id: 14, image: '/assets/images/portfolio/portfolio-14.jpg', category: 'mixologie',               title: 'Cocktails sur mesure' },
+      { id: 15, image: '/assets/images/portfolio/portfolio-15.jpg', category: 'privatisation-monuments', title: 'Louvre — Ambiance nocturne' },
+      { id: 16, image: '/assets/images/portfolio/portfolio-16.jpg', category: 'privatisation-monuments', title: 'Péniche — Quai de Seine' },
+      { id: 17, image: '/assets/images/portfolio/portfolio-17.jpg', category: 'mixologie',               title: 'Cocktail signature' },
+      { id: 18, image: '/assets/images/portfolio/portfolio-18.jpg', category: 'transfert-bagages',       title: 'Livraison premium' },
+      { id: 19, image: '/assets/images/portfolio/portfolio-19.jpg', category: 'privatisation-monuments', title: 'Arc de Triomphe — Night' },
+      { id: 20, image: '/assets/images/portfolio/portfolio-20.jpg', category: 'mixologie',               title: 'Réception cocktail' },
+      { id: 21, image: '/assets/images/portfolio/portfolio-21.jpg', category: 'planification-evenements', title: 'Picnic luxe — Champ de Mars' },
+      { id: 22, image: '/assets/images/portfolio/portfolio-22.jpg', category: 'transfert-bagages',       title: 'Transfert de bagages' },
+      { id: 23, image: '/assets/images/portfolio/portfolio-23.jpg', category: 'stewarding',              title: 'Service chauffeur VIP' },
+      { id: 24, image: '/assets/images/portfolio/portfolio-24.jpg', category: 'privatisation-monuments', title: 'Privatisation — Le Louvre' },
+    ];
 
-    grid.innerHTML = placeholderItems.map(item => `
+    grid.innerHTML = portfolioItems.map(item => `
       <a href="${item.image}" class="portfolio-item glightbox reveal" data-gallery="portfolio" data-category="${item.category}">
         <img src="${item.image}" alt="${item.title}" class="portfolio-item__image" loading="lazy" />
         <div class="portfolio-item__overlay">
