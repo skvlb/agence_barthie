@@ -30,8 +30,10 @@
 }
 
 .hero--page {
-  height: 70vh;
-  min-height: 500px;
+  height: auto;
+  min-height: auto;
+  padding-top: clamp(140px, 15vh, 180px);
+  padding-bottom: clamp(40px, 5vh, 80px);
 }
 
 .hero__video-wrapper,
@@ -72,6 +74,7 @@
   z-index: 1;
   text-align: center;
   padding: 0 var(--space-lg);
+  width: 100%;
 }
 
 .hero__subtitle {
@@ -198,9 +201,28 @@
 
 .valeur-card {
   text-align: center;
-  padding: var(--space-xl) var(--space-lg);
   border: 1px solid var(--color-border);
   transition: border-color var(--transition-fast);
+  background: var(--color-bg-card);
+  overflow: hidden;
+}
+
+.valeur-card__image-wrapper {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: var(--space-md);
+}
+
+.valeur-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s var(--ease-smooth);
+}
+
+.valeur-card:hover .valeur-card__image {
+  transform: scale(1.05);
 }
 
 .valeur-card:hover {
@@ -208,6 +230,8 @@
 }
 
 .valeur-card__title {
+  padding: 0 var(--space-md);
+
   font-family: var(--font-heading);
   font-size: var(--text-xl);
   color: var(--color-white);
@@ -219,6 +243,7 @@
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   line-height: 1.8;
+  padding: 0 var(--space-md) var(--space-xl);
 }
 
 /* --- Scroll Reveal Defaults --- */
@@ -278,7 +303,7 @@
   }
 
   .hero--page {
-    height: 50vh;
-    min-height: 350px;
+    padding-top: 120px;
+    padding-bottom: 40px;
   }
 }

@@ -1,11 +1,12 @@
 /* ============================================================
    SERVICES DATA
-   All 9 services from Agence Barthié, translated FR/EN
+   Les 9 services définitifs de l'Agence Barthié
+   Traduction bilingue (fr/en)
    ============================================================ */
 
 export const services = [
   {
-    id: 'privatisation-monuments',
+    id: 'privatisation',
     title: {
       fr: 'Privatisation de Monuments',
       en: 'Monument Privatization'
@@ -19,10 +20,7 @@ export const services = [
       en: 'We open the doors of iconic monuments and exceptional heritage sites to host your most prestigious events. Every privatization is designed as a unique experience, where the history of the venue meets perfectly orchestrated organization. The elegance of the setting and the precision of the execution give rise to rare and unforgettable moments.'
     },
     image: '/assets/images/services/privatisation-monuments.jpg',
-    category: {
-      fr: 'Événementiel',
-      en: 'Events'
-    }
+    category: { fr: 'Événementiel', en: 'Events' }
   },
   {
     id: 'stewarding',
@@ -39,149 +37,125 @@ export const services = [
       en: 'Our stewarding teams ensure a smooth welcome and rigorous crowd management during your events. Trained in the demands of high-end environments, our stewards oversee the smooth running of every moment with elegance, vigilance, and a sense of service. Their presence guarantees serene organization and an impeccable experience for your guests.'
     },
     image: '/assets/images/services/stewarding.jpg',
-    category: {
-      fr: 'Événementiel',
-      en: 'Events'
-    }
+    category: { fr: 'Événementiel', en: 'Events' }
   },
   {
-    id: 'planification-evenements',
+    id: 'planification',
     title: {
       fr: 'Planification d\'événements',
       en: 'Event Planning'
     },
     subtitle: {
-      fr: 'De l\'idée à l\'exécution, une orchestration sur mesure.',
-      en: 'From concept to execution, a bespoke orchestration.'
+      fr: 'Des événements imaginés avec précision, conçus pour marquer les esprits.',
+      en: 'Events imagined with precision, designed to leave a lasting impression.'
     },
     description: {
-      fr: 'Nous concevons et organisons des événements exclusifs, pensés dans les moindres détails pour refléter votre vision. Qu\'il s\'agisse d\'un lancement de produit, d\'un dîner de gala ou d\'une réception privée, notre équipe orchestre chaque étape avec rigueur et créativité. De la sélection du lieu à la coordination le jour J, nous transformons vos idées en expériences mémorables.',
-      en: 'We design and organize exclusive events, thought out down to the smallest detail to reflect your vision. Whether it is a product launch, a gala dinner, or a private reception, our team orchestrates every step with rigor and creativity. From venue selection to D-Day coordination, we turn your ideas into memorable experiences.'
+      fr: 'Nous accompagnons la conception et l\'organisation d\'événements privés ou professionnels, du premier échange jusqu\'au jour J. Mariage, séminaire, réception ou célébration particulière : chaque projet est pensé sur mesure, avec une attention portée aux moindres détails afin de créer une expérience élégante, fluide et parfaitement orchestrée.',
+      en: 'We support the design and organization of private or professional events, from the first exchange to D-Day. Wedding, seminar, reception, or special celebration: each project is tailor-made, with attention to the smallest detail to create an elegant, seamless, and perfectly orchestrated experience.'
     },
-    image: '/assets/images/services/planification.jpg',
-    category: {
-      fr: 'Événementiel',
-      en: 'Events'
-    }
+    image: '/assets/images/services/planification-evenements.jpg',
+    category: { fr: 'Événementiel', en: 'Events' }
   },
   {
-    id: 'accompagnement-vip',
+    id: 'bagages',
     title: {
-      fr: 'Accompagnement VIP',
-      en: 'VIP Accompaniment'
+      fr: 'Transfert de Bagages',
+      en: 'Luggage Transfer'
     },
     subtitle: {
-      fr: 'Un service exclusif, dédié à une clientèle exigeante.',
-      en: 'An exclusive service, dedicated to a demanding clientele.'
+      fr: 'Voyagez l\'esprit libre, vos effets personnels entre de bonnes mains.',
+      en: 'Travel with a free mind, your belongings in good hands.'
     },
     description: {
-      fr: 'Nous proposons un accompagnement sur mesure pour vos invités de marque, alliant discrétion, réactivité et anticipation. Qu\'il s\'agisse de la gestion des déplacements, de la sécurité ou de la coordination des emplois du temps, notre service VIP garantit un confort absolu et une tranquillité d\'esprit totale. Chaque détail est pris en charge pour offrir une expérience fluide et personnalisée.',
-      en: 'We offer bespoke accompaniment for your VIP guests, combining discretion, responsiveness, and anticipation. Whether it involves managing travel, security, or schedule coordination, our VIP service guarantees absolute comfort and total peace of mind. Every detail is taken care of to provide a seamless and personalized experience.'
+      fr: 'Nous organisons le transfert sécurisé de vos bagages, en France comme à l\'international. De la prise en charge jusqu\'à la livraison, chaque étape est gérée avec rigueur et discrétion afin de vous offrir un déplacement fluide, sans contrainte logistique. Votre confort reste notre priorité.',
+      en: 'We organize the secure transfer of your luggage, in France and internationally. From collection to delivery, each step is managed with rigor and discretion to offer you a smooth journey without logistical constraints. Your comfort remains our priority.'
     },
-    image: '/assets/images/services/accompagnement.jpg',
-    category: {
-      fr: 'Conciergerie',
-      en: 'Concierge'
-    }
+    image: '/assets/images/services/transfert-bagages.jpg',
+    category: { fr: 'Conciergerie', en: 'Concierge' }
+  },
+  {
+    id: 'shooting',
+    title: {
+      fr: 'Shooting Photo',
+      en: 'Photo Shooting'
+    },
+    subtitle: {
+      fr: 'Capturer l\'instant avec justesse et élégance.',
+      en: 'Capturing the moment with accuracy and elegance.'
+    },
+    description: {
+      fr: 'Nous organisons des shootings photo pensés comme de véritables expériences visuelles. Pour un événement, un projet personnel ou une image de marque, chaque séance est préparée avec soin afin de produire des images raffinées et naturelles. Nous proposons également des prises de vue style paparazzi, idéales pour capturer des instants spontanés et authentiques, tout en conservant une esthétique élégante et immersive.',
+      en: 'We organize photo shoots designed as true visual experiences. For an event, a personal project, or a brand image, each session is carefully prepared to produce refined and natural images. We also offer paparazzi-style shoots, ideal for capturing spontaneous and authentic moments while maintaining an elegant and immersive aesthetic.'
+    },
+    image: '/assets/images/services/shooting-photo.jpg',
+    category: { fr: 'Événementiel', en: 'Events' }
   },
   {
     id: 'cours-prives',
     title: {
-      fr: 'Cours privés d\'art de vivre',
-      en: 'Private Lifestyle Masterclasses'
+      fr: 'Cours Privés',
+      en: 'Private Lessons'
     },
     subtitle: {
-      fr: 'L\'excellence du savoir-faire français à votre portée.',
-      en: 'The excellence of French know-how at your fingertips.'
+      fr: 'Apprendre, progresser ou se perfectionner dans un cadre entièrement personnalisé.',
+      en: 'Learn, progress, or perfect your skills in a fully personalized setting.'
     },
     description: {
-      fr: 'Plongez dans l\'univers de l\'art de vivre à la française grâce à nos masterclasses exclusives. Œnologie, gastronomie, étiquette ou encore art floral : nos experts passionnés partagent avec vous leurs secrets dans des cadres prestigieux. Ces moments privilégiés allient apprentissage, raffinement et convivialité, pour une immersion totale dans l\'élégance.',
-      en: 'Immerse yourself in the world of French art de vivre with our exclusive masterclasses. Oenology, gastronomy, etiquette, or floral art: our passionate experts share their secrets with you in prestigious settings. These privileged moments combine learning, refinement, and conviviality for a total immersion in elegance.'
+      fr: 'Nous organisons des cours privés dans de nombreux domaines : langues, sport, développement personnel ou disciplines spécifiques. Chaque session est pensée selon vos objectifs, avec des intervenants qualifiés et un accompagnement sur mesure. L\'expérience est simple, flexible et adaptée à votre rythme comme à vos attentes.',
+      en: 'We organize private lessons in many areas: languages, sports, personal development, or specific disciplines. Each session is designed according to your objectives, with qualified instructors and personalized support. The experience is simple, flexible, and adapted to your pace and expectations.'
     },
     image: '/assets/images/services/cours-prives.jpg',
-    category: {
-      fr: 'Conciergerie',
-      en: 'Concierge'
-    }
-  },
-  {
-    id: 'transfert-bagages',
-    title: {
-      fr: 'Transfert de bagages sur mesure',
-      en: 'Bespoke Luggage Transfer'
-    },
-    subtitle: {
-      fr: 'Voyagez léger, nous nous occupons du reste avec le plus grand soin.',
-      en: 'Travel light, we take care of the rest with the utmost care.'
-    },
-    description: {
-      fr: 'Notre service de transfert de bagages vous libère des contraintes logistiques pour vous permettre de profiter pleinement de votre séjour. De votre arrivée à votre départ, nous assurons l\'acheminement sécurisé et ponctuel de vos effets personnels, avec la discrétion et le soin qu\'exige une clientèle haut de gamme. Une gestion fluide pour un voyage sans encombre.',
-      en: 'Our luggage transfer service frees you from logistical constraints so you can fully enjoy your stay. From your arrival to your departure, we ensure the secure and punctual transport of your personal belongings, with the discretion and care required by high-end clientele. Smooth management for a hassle-free journey.'
-    },
-    image: '/assets/images/services/bagages.jpg',
-    category: {
-      fr: 'Conciergerie',
-      en: 'Concierge'
-    }
-  },
-  {
-    id: 'majordome',
-    title: {
-      fr: 'Service de Majordome',
-      en: 'Butler Service'
-    },
-    subtitle: {
-      fr: 'L\'art de l\'anticipation et du service personnalisé au quotidien.',
-      en: 'The art of anticipation and personalized daily service.'
-    },
-    description: {
-      fr: 'Notre service de majordome incarne l\'excellence et le dévouement. Formés dans la grande tradition de l\'hôtellerie de luxe, nos majordomes anticipent vos besoins et veillent au confort de votre résidence ou de votre suite. Gestion du quotidien, accueil des invités, ou organisation d\'événements privés : leur présence discrète et efficace transforme chaque instant en un moment d\'exception.',
-      en: 'Our butler service embodies excellence and dedication. Trained in the great tradition of luxury hospitality, our butlers anticipate your needs and ensure the comfort of your residence or suite. Daily management, welcoming guests, or organizing private events: their discreet and efficient presence turns every moment into an exceptional experience.'
-    },
-    image: '/assets/images/services/majordome.jpg',
-    category: {
-      fr: 'Conciergerie',
-      en: 'Concierge'
-    }
+    category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
     id: 'dog-sitting',
     title: {
-      fr: 'Dog Sitting Premium',
-      en: 'Premium Dog Sitting'
+      fr: 'Dog Sitting & Baby Sitting',
+      en: 'Dog Sitting & Baby Sitting'
     },
     subtitle: {
-      fr: 'Un accompagnement de confiance pour vos compagnons à quatre pattes.',
-      en: 'Trusted companionship for your four-legged friends.'
+      fr: 'Une présence de confiance pour ceux qui comptent le plus.',
+      en: 'A trusted presence for those who matter most.'
     },
     description: {
-      fr: 'Parce que vos animaux méritent la même attention que vous, notre service de dog sitting premium leur offre un accompagnement sur mesure. Promenades dans des cadres sécurisés, soins personnalisés et présence rassurante : nos experts veillent sur vos compagnons avec affection et professionnalisme. Confiez-les-nous en toute sérénité lors de vos événements ou déplacements.',
-      en: 'Because your pets deserve the same attention as you, our premium dog sitting service offers them bespoke companionship. Walks in secure environments, personalized care, and a reassuring presence: our experts watch over your companions with affection and professionalism. Entrust them to us with complete peace of mind during your events or travels.'
+      fr: 'Nous proposons des services de garde pour enfants et animaux de compagnie, assurés par des intervenants sélectionnés pour leur sérieux et leur sens des responsabilités. À domicile ou selon vos besoins, chaque prise en charge se fait avec attention, bienveillance et discrétion, afin de vous offrir une tranquillité d\'esprit totale.',
+      en: 'We offer childcare and pet sitting services, provided by professionals selected for their reliability and sense of responsibility. At home or according to your needs, each care is carried out with attention, kindness, and discretion, to offer you total peace of mind.'
     },
-    image: '/assets/images/services/dog-sitting.jpg',
-    category: {
-      fr: 'Conciergerie',
-      en: 'Concierge'
-    }
+    image: '/assets/images/services/dog-baby-sitting.jpg',
+    category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
-    id: 'chefs-prives',
+    id: 'mixologie',
     title: {
-      fr: 'Chefs Privés',
-      en: 'Private Chefs'
+      fr: 'Mixologie',
+      en: 'Mixology'
     },
     subtitle: {
-      fr: 'La haute gastronomie s\'invite à votre table, dans l\'intimité de votre lieu.',
-      en: 'Haute gastronomy comes to your table, in the intimacy of your venue.'
+      fr: 'L\'art du cocktail au service de vos moments d\'exception.',
+      en: 'The art of cocktails serving your exceptional moments.'
     },
     description: {
-      fr: 'Faites l\'expérience d\'une gastronomie d\'exception sans quitter le confort de votre résidence ou de votre lieu privatisé. Nos chefs privés, issus d\'établissements étoilés ou de grandes maisons, créent pour vous des menus sur mesure, en accord avec vos envies et les produits de saison. Du choix des ingrédients à la mise en scène de l\'assiette, chaque repas devient une œuvre d\'art culinaire.',
-      en: 'Experience exceptional gastronomy without leaving the comfort of your residence or private venue. Our private chefs, coming from Michelin-starred establishments or grand houses, create bespoke menus for you, in line with your desires and seasonal products. From the choice of ingredients to the plating, every meal becomes a work of culinary art.'
+      fr: 'Nos mixologues créent des expériences cocktails raffinées, pensées pour sublimer vos événements. Entre créations signatures, mise en scène élégante et maîtrise des saveurs, chaque prestation apporte une dimension conviviale et sophistiquée à votre réception. Chaque détail est travaillé pour offrir à vos invités un moment aussi élégant que mémorable.',
+      en: 'Our mixologists create refined cocktail experiences, designed to enhance your events. Between signature creations, elegant staging, and flavor mastery, each service brings a convivial and sophisticated dimension to your reception. Every detail is crafted to offer your guests a moment as elegant as it is memorable.'
     },
-    image: '/assets/images/services/chefs-prives.jpg',
-    category: {
-      fr: 'Gastronomie',
-      en: 'Gastronomy'
-    }
+    image: '/assets/images/services/mixologie.jpg',
+    category: { fr: 'Gastronomie', en: 'Gastronomy' }
+  },
+  {
+    id: 'animation',
+    title: {
+      fr: 'Animation',
+      en: 'Entertainment'
+    },
+    subtitle: {
+      fr: 'Donner du rythme, de l\'énergie et une véritable atmosphère à vos événements.',
+      en: 'Giving rhythm, energy, and a true atmosphere to your events.'
+    },
+    description: {
+      fr: 'Nous concevons des animations adaptées à chaque occasion afin de créer des moments vivants et mémorables. Artistes, performances, expériences interactives ou concepts originaux : chaque animation est pensée pour enrichir l\'événement, surprendre les invités et renforcer l\'expérience globale.',
+      en: 'We design entertainment adapted to each occasion to create lively and memorable moments. Artists, performances, interactive experiences, or original concepts: each entertainment is designed to enrich the event, surprise guests, and strengthen the overall experience.'
+    },
+    image: '/assets/images/services/animation.jpg',
+    category: { fr: 'Événementiel', en: 'Events' }
   }
 ];

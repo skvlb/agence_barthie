@@ -6,6 +6,7 @@
 
 import './portfolio.css';
 import { t, tObj } from '../../utils/i18n.js';
+import { initScrollReveal } from '../../components/ScrollReveal.js';
 
 /* ----------------------------------------------------------
    Catégories — noms des dossiers source
@@ -196,6 +197,9 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('GLightbox not loaded — lightbox disabled');
       });
     }
+
+    // Initialize scroll reveal for newly injected portfolio items
+    initScrollReveal();
   }
 
   // URL param filter

@@ -5,6 +5,7 @@
 import './univers.css';
 import { services } from '../../data/services.js';
 import { createServiceCard } from '../../components/ServiceCard.js';
+import { initScrollReveal } from '../../components/ScrollReveal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Hero animation
@@ -25,8 +26,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const card = e.target.closest('.service-card');
       if (card) {
         const serviceId = card.dataset.service;
-        window.location.href = `/portfolio.html?service=${serviceId}`;
+        window.location.href = `/portfolio.html?category=${serviceId}`;
       }
     });
+
+    // Initialize scroll reveal for newly injected elements
+    initScrollReveal();
   }
 });

@@ -82,9 +82,9 @@
   --space-sm: 1rem;
   --space-md: 1.5rem;
   --space-lg: 2.5rem;
-  --space-xl: 4rem;
-  --space-2xl: 6rem;
-  --space-section: clamp(5rem, 10vw, 9rem);
+  --space-xl: 3rem;
+  --space-2xl: 5rem;
+  --space-section: clamp(3rem, 6vw, 5rem);
   --container-width: min(90%, 1400px);
   --container-narrow: min(85%, 900px);
 

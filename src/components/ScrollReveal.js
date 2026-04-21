@@ -10,18 +10,18 @@ export function initScrollReveal() {
 
   const observer = new IntersectionObserver(
     (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          // Stagger effect for siblings
-          const parent = entry.target.parentElement;
-          const siblings = parent ? parent.querySelectorAll('.reveal') : [];
-          const index = Array.from(siblings).indexOf(entry.target);
-          const delay = index * 0.1; // 100ms stagger
+      // Get all currently intersecting entries and sort them by vertical position
+      const intersectingEntries = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
 
-          entry.target.style.transitionDelay = `${delay}s`;
-          entry.target.classList.add('is-visible');
-          observer.unobserve(entry.target); // Only animate once
-        }
+      intersectingEntries.forEach((entry, idx) => {
+        // Apply a small stagger (50ms) to items appearing at the same time
+        // Cap the maximum delay to avoid long waits for large lists
+        const delay = Math.min(idx * 0.05, 0.4); 
+        entry.target.style.transitionDelay = `${delay}s`;
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target); // Only animate once
       });
     },
     {

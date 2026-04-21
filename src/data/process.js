@@ -1,6 +1,6 @@
 /* ============================================================
    PROCESS STEPS DATA
-   5 steps from Agence Barthié's client process, translated FR/EN
+   3 steps from Agence Barthié's client process, translated FR/EN
    ============================================================ */
 
 export const processSteps = [
@@ -13,15 +13,12 @@ export const processSteps = [
       fr: 'Nous recueillons les informations essentielles sur votre projet pour comprendre vos envies. Cette étape permet de définir les grandes lignes de votre demande.',
       en: 'We gather essential information about your project to understand your desires. This step allows us to define the broad outlines of your request.'
     },
-    note: {
-      fr: 'Devis gratuit inclus',
-      en: 'Free quote included'
-    },
+    note: null,
   },
   {
     title: {
-      fr: 'Évaluation de la demande',
-      en: 'Request Evaluation'
+      fr: 'Évaluation',
+      en: 'Evaluation'
     },
     description: {
       fr: 'Nous analysons avec précision vos besoins et objectifs et les spécificités de votre événement. Cette évaluation détaillée nous permet d\'élaborer une réponse cohérente, adaptée à votre demande et votre budget.',
@@ -39,27 +36,5 @@ export const processSteps = [
       en: 'We send you a bespoke proposal. Each offer is designed to reflect the image of your event and enhance your experience.'
     },
     note: null,
-  },
-  {
-    title: {
-      fr: 'Validation du devis',
-      en: 'Quote Validation'
-    },
-    description: {
-      fr: 'Après ajustements éventuels, le devis est validé conjointement. Cette étape formalise notre engagement et marque le point de départ de la préparation opérationnelle.',
-      en: 'After possible adjustments, the quote is jointly validated. This step formalizes our commitment and marks the starting point of operational preparation.'
-    },
-    note: null,
-  },
-  {
-    title: {
-      fr: 'Réalisation de l\'événement',
-      en: 'Event Execution'
-    },
-    description: {
-      fr: 'Nos équipes coordonnent et assurent la mise en œuvre complète de la prestation dans le respect du cahier des charges établi.',
-      en: 'Our teams coordinate and ensure the complete implementation of the service in compliance with the established specifications.'
-    },
-    note: null,
-  },
+  }
 ];
