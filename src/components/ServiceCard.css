@@ -23,11 +23,11 @@
 
 .service-card {
   position: relative;
-  overflow: hidden;
-  background: var(--color-bg-card);
-  border: 1px solid var(--color-border);
-  transition: border-color var(--transition-medium), transform var(--transition-fast);
+  background: transparent;
+  perspective: 1000px;
   scroll-snap-align: start;
+  /* Fixed height is needed because of absolute positioning of the faces */
+  height: 420px;
 }
 
 .services-carousel .service-card {
@@ -35,9 +35,45 @@
   flex-shrink: 0;
 }
 
-.service-card:hover {
+.service-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s var(--ease-smooth);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.service-card.is-flipped .service-card__inner {
+  transform: rotateY(180deg);
+}
+
+.service-card__front,
+.service-card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+  transition: border-color var(--transition-medium);
+  /* Fix Safari/Chrome 3D bleed-through */
+  transform-style: preserve-3d;
+}
+
+.service-card__front {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  transform: rotateY(0deg) translateZ(1px);
+}
+
+/* Hover effects only on front */
+.service-card:not(.is-flipped):hover .service-card__front {
   border-color: var(--color-primary);
-  transform: translateY(-4px);
 }
 
 .service-card__image-wrapper {
@@ -45,6 +81,9 @@
   width: 100%;
   aspect-ratio: 4 / 3;
   overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0);
 }
 
 .service-card__image {
@@ -52,9 +91,11 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.8s var(--ease-smooth);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.service-card:hover .service-card__image {
+.service-card:not(.is-flipped):hover .service-card__image {
   transform: scale(1.08);
 }
 
@@ -69,9 +110,11 @@
   align-items: center;
   justify-content: center;
   transition: background var(--transition-medium);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
-.service-card:hover .service-card__overlay {
+.service-card:not(.is-flipped):hover .service-card__overlay {
   background: rgba(26, 43, 26, 0.5);
 }
 
@@ -89,13 +132,14 @@
   transition: opacity var(--transition-medium), transform var(--transition-medium);
 }
 
-.service-card:hover .service-card__cta {
+.service-card:not(.is-flipped):hover .service-card__cta {
   opacity: 1;
   transform: translateY(0);
 }
 
 .service-card__content {
   padding: var(--space-md) var(--space-md) var(--space-lg);
+  flex-grow: 1;
 }
 
 .service-card__title {
@@ -110,6 +154,41 @@
   font-size: var(--text-sm);
   color: var(--color-text-muted);
   font-style: italic;
+}
+
+/* --- Face Arrière (Back) --- */
+.service-card__back {
+  background: var(--color-bg-alt);
+  transform: rotateY(180deg) translateZ(1px);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-lg);
+  text-align: center;
+  border-color: var(--color-primary-light);
+}
+
+.service-card__back-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.service-card__title--back {
+  color: var(--color-accent);
+}
+
+.service-card__description {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.service-card__link {
+  margin-top: var(--space-sm);
 }
 
 @media (max-width: 1024px) {

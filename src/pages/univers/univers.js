@@ -21,12 +21,17 @@ document.addEventListener('DOMContentLoaded', () => {
       .map((service, index) => createServiceCard(service, index))
       .join('');
 
-    // Click on service card → could navigate to portfolio with filter
+    // Handle clicks for 3D flip and portfolio redirection
     grid.addEventListener('click', (e) => {
+      // Check if clicked on the "Voir les photos" button
+      if (e.target.closest('.service-card__link')) {
+        return; // Let the default anchor click happen
+      }
+
+      // Otherwise, toggle the flip state of the card
       const card = e.target.closest('.service-card');
       if (card) {
-        const serviceId = card.dataset.service;
-        window.location.href = `/portfolio.html?category=${serviceId}`;
+        card.classList.toggle('is-flipped');
       }
     });
 

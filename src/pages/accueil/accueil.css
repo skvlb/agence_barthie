@@ -45,9 +45,7 @@
 }
 
 /* Processus */
-.section--processus {
-  background: var(--color-bg);
-}
+/* The background is now managed by ProcessTimeline.css */
 
 /* Clients */
 .section--clients {

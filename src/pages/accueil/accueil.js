@@ -7,6 +7,7 @@ import { services } from '../../data/services.js';
 import { createServiceCard } from '../../components/ServiceCard.js';
 import { initProcessTimeline } from '../../components/ProcessTimeline.js';
 import { initClientMarquee } from '../../components/ClientMarquee.js';
+import { initScrollReveal } from '../../components/ScrollReveal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize services carousel (show ALL 9 on homepage as requested)
@@ -15,6 +16,20 @@ document.addEventListener('DOMContentLoaded', () => {
     carousel.innerHTML = services
       .map((service, index) => createServiceCard(service, index))
       .join('');
+
+    // Handle clicks for 3D flip and portfolio redirection
+    carousel.addEventListener('click', (e) => {
+      // Check if clicked on the "Voir les photos" button
+      if (e.target.closest('.service-card__link')) {
+        return; // Let the default anchor click happen
+      }
+
+      // Otherwise, toggle the flip state of the card
+      const card = e.target.closest('.service-card');
+      if (card) {
+        card.classList.toggle('is-flipped');
+      }
+    });
   }
 
   // Initialize portfolio preview
@@ -40,6 +55,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Initialize process timeline
   initProcessTimeline();
+  
+  // Re-run scroll reveal to catch the dynamically injected timeline steps
+  setTimeout(() => initScrollReveal(), 100);
 
   // Initialize client marquee
   initClientMarquee();
