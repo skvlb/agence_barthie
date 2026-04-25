@@ -55,8 +55,7 @@
 .hero__image {
   width: 100%;
   height: 100%;
-  background-size: cover;
-  background-position: center;
+  object-fit: cover;
   transition: transform 8s ease;
 }
 
@@ -66,7 +65,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--color-bg);
+  background: var(--color-overlay);
 }
 
 .hero__content {
@@ -201,28 +200,52 @@
 
 .valeur-card {
   text-align: center;
-  border: 1px solid var(--color-border);
-  transition: border-color var(--transition-fast);
-  background: var(--color-bg-card);
+  border: none;
+  background: transparent;
   overflow: hidden;
 }
 
-.valeur-card__image-wrapper {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
-  margin-bottom: var(--space-md);
+.valeur-card:hover {
+  border-color: transparent;
 }
 
-.valeur-card__image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.8s var(--ease-smooth);
+.valeur-card__icon-wrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: var(--space-xl) auto var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.valeur-card:hover .valeur-card__image {
-  transform: scale(1.05);
+.valeur-card__icon-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.4s var(--ease-smooth);
+}
+
+.valeur-card:hover .valeur-card__icon-bg {
+  transform: translate(-50%, -50%) scale(1.2);
+  opacity: 0.2;
+}
+
+.valeur-card__icon {
+  position: relative;
+  z-index: 1;
+  color: var(--color-white);
+  transition: color 0.3s ease;
+}
+
+.valeur-card:hover .valeur-card__icon {
+  color: var(--color-white);
 }
 
 .valeur-card:hover {

@@ -28,7 +28,6 @@ export function createServiceCard(service, index) {
           <div class="service-card__back-content">
             <h3 class="service-card__title service-card__title--back">${tObj(service.title)}</h3>
             <p class="service-card__description">${tObj(service.description)}</p>
-            <a href="/portfolio.html?category=${service.id}" class="btn btn--outline service-card__link" data-i18n="univers.voir_photos">Voir les photos</a>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@
    ============================================================ */
 
 /* Hero home specific */
-.hero--home .hero__video-wrapper video {
+.hero--home .hero__image {
   filter: brightness(0.6);
 }
 

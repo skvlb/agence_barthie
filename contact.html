@@ -17,14 +17,23 @@
   <nav id="navbar"></nav>
 
   <!-- ========== HERO ========== -->
-  <section id="hero" class="hero hero--page">
+  <section id="hero" class="hero hero--page hero--contact">
     <div class="hero__image-wrapper">
-      <div class="hero__image" style="background-image: url('/assets/images/hero/contact-hero.jpg');"></div>
+      <img src="/assets/images/services/decoration.jpg" alt="Contact" class="hero__image" />
       <div class="hero__overlay"></div>
     </div>
-    <div class="hero__content">
-      <p class="hero__subtitle reveal" data-i18n="contact.hero_subtitle">Agence Barthié</p>
-      <h1 class="hero__title reveal" data-i18n="contact.hero_title">Donnons vie à vos idées</h1>
+    <div class="hero__content hero__content--split">
+      <div class="hero__split-left reveal">
+        <p class="hero__subtitle" data-i18n="contact.hero_subtitle">Donnons vie à vos idées</p>
+        <h1 class="hero__title" data-i18n="contact.hero_title">Contact</h1>
+      </div>
+      <div class="hero__split-right reveal">
+        <p class="hero__right-text" data-i18n="contact.hero_right_text">Parlons de vos besoins</p>
+        <p class="hero__availability">
+          <span class="hero__availability-val">7j/7</span>
+          <span class="hero__availability-lbl" data-i18n="contact.availability_lbl">DISPONIBILITÉ</span>
+        </p>
+      </div>
     </div>
   </section>
 
@@ -35,8 +44,8 @@
         
         <!-- Colonne gauche : Infos -->
         <div class="contact-info reveal">
-          <img src="/logo-ab.svg" alt="Agence Barthié" class="contact-info__logo" />
-          <h2 class="contact-info__title" data-i18n="contact.info_title">Prendre contact</h2>
+          <p class="contact-info__subtitle" data-i18n="contact.info_subtitle">Prendre contact</p>
+          <h2 class="contact-info__title" data-i18n="contact.info_title">Discutons de votre projet</h2>
           <p class="contact-info__text" data-i18n="contact.hero_text">Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.</p>
           
           <div class="contact-info__details">
@@ -53,8 +62,8 @@
               <a href="https://instagram.com/agence_barthie_" target="_blank" rel="noopener">@agence_barthie_</a>
             </div>
           </div>
-
-          <p class="contact-info__availability" data-i18n="contact.availability">Disponible <strong>7j/7</strong></p>
+          
+          <img src="/images/logos/logo-ab-outline.png" alt="Agence Barthié" class="contact-info__logo contact-info__logo--bottom" />
         </div>
 
         <!-- Colonne droite : Formulaire -->

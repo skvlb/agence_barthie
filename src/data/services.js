@@ -8,52 +8,52 @@ export const services = [
   {
     id: 'privatisation',
     title: {
-      fr: 'Privatisation de Monuments',
-      en: 'Monument Privatization'
+      fr: 'Privatisation de Lieux',
+      en: 'Venue Privatization'
     },
     subtitle: {
-      fr: 'Des lieux d\'exception pour des événements qui le sont tout autant.',
-      en: 'Exceptional venues for equally exceptional events.'
+      fr: 'Des lieux d\'exception pour des événements uniques.',
+      en: 'Exceptional venues for unique events.'
     },
     description: {
-      fr: 'Nous ouvrons les portes de monuments emblématiques et de lieux patrimoniaux d\'exception pour accueillir vos événements les plus prestigieux. Chaque privatisation est pensée comme une expérience unique, où l\'histoire du lieu rencontre une organisation parfaitement orchestrée. L\'élégance du cadre et la précision de l\'exécution donnent naissance à des moments rares et inoubliables.',
-      en: 'We open the doors of iconic monuments and exceptional heritage sites to host your most prestigious events. Every privatization is designed as a unique experience, where the history of the venue meets perfectly orchestrated organization. The elegance of the setting and the precision of the execution give rise to rare and unforgettable moments.'
+      fr: 'Nous ouvrons les portes de lieux patrimoniaux et d\'espaces prestigieux pour accueillir vos événements. Chaque privatisation est pensée comme une expérience rare, où l\'histoire du lieu rencontre une organisation parfaitement orchestrée.',
+      en: 'We open the doors of heritage sites and prestigious spaces to host your events. Every privatization is designed as a rare experience, where the history of the venue meets perfectly orchestrated organization.'
     },
-    image: '/assets/images/services/privatisation-monuments.jpg',
+    image: '/assets/images/services/privatisation.jpg',
     category: { fr: 'Événementiel', en: 'Events' }
   },
   {
-    id: 'stewarding',
+    id: 'accompagnement',
     title: {
-      fr: 'Stewarding',
-      en: 'Stewarding'
+      fr: 'Accompagnement Client',
+      en: 'Client Accompaniment'
     },
     subtitle: {
-      fr: 'Une présence professionnelle, discrète et parfaitement maîtrisée.',
-      en: 'A professional, discreet, and perfectly mastered presence.'
+      fr: 'Une présence professionnelle, discrète et dédiée.',
+      en: 'A professional, discreet, and dedicated presence.'
     },
     description: {
-      fr: 'Nos équipes de stewarding assurent un accueil fluide et une gestion rigoureuse des flux lors de vos événements. Formés aux exigences des environnements haut de gamme, nos stewards veillent au bon déroulement de chaque moment avec élégance, vigilance et sens du service. Leur présence garantit une organisation sereine et une expérience irréprochable pour vos invités.',
-      en: 'Our stewarding teams ensure a smooth welcome and rigorous crowd management during your events. Trained in the demands of high-end environments, our stewards oversee the smooth running of every moment with elegance, vigilance, and a sense of service. Their presence guarantees serene organization and an impeccable experience for your guests.'
+      fr: 'Notre équipe vous accompagne lors de vos déplacements et événements. Formés aux exigences des environnements haut de gamme, nous veillons au bon déroulement de votre séjour avec élégance, vigilance et un sens du service irréprochable.',
+      en: 'Our team accompanies you during your travels and events. Trained in the demands of high-end environments, we ensure the smooth running of your stay with elegance, vigilance, and an impeccable sense of service.'
     },
-    image: '/assets/images/services/stewarding.jpg',
-    category: { fr: 'Événementiel', en: 'Events' }
+    image: '/assets/images/services/accompagnement.jpg',
+    category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
-    id: 'planification',
+    id: 'decoration',
     title: {
-      fr: 'Planification d\'événements',
-      en: 'Event Planning'
+      fr: 'Décoration',
+      en: 'Decoration'
     },
     subtitle: {
-      fr: 'Des événements imaginés avec précision, conçus pour marquer les esprits.',
-      en: 'Events imagined with precision, designed to leave a lasting impression.'
+      fr: 'Des atmosphères conçues pour marquer les esprits.',
+      en: 'Atmospheres designed to leave a lasting impression.'
     },
     description: {
-      fr: 'Nous accompagnons la conception et l\'organisation d\'événements privés ou professionnels, du premier échange jusqu\'au jour J. Mariage, séminaire, réception ou célébration particulière : chaque projet est pensé sur mesure, avec une attention portée aux moindres détails afin de créer une expérience élégante, fluide et parfaitement orchestrée.',
-      en: 'We support the design and organization of private or professional events, from the first exchange to D-Day. Wedding, seminar, reception, or special celebration: each project is tailor-made, with attention to the smallest detail to create an elegant, seamless, and perfectly orchestrated experience.'
+      fr: 'Nous concevons la scénographie et la décoration de vos événements avec une attention portée aux moindres détails afin de créer une expérience visuelle élégante, harmonieuse et parfaitement orchestrée.',
+      en: 'We design the scenography and decoration of your events with attention to the smallest detail to create an elegant, harmonious, and perfectly orchestrated visual experience.'
     },
-    image: '/assets/images/services/planification-evenements.jpg',
+    image: '/assets/images/services/decoration.jpg',
     category: { fr: 'Événementiel', en: 'Events' }
   },
   {
@@ -63,99 +63,99 @@ export const services = [
       en: 'Luggage Transfer'
     },
     subtitle: {
-      fr: 'Voyagez l\'esprit libre, vos effets personnels entre de bonnes mains.',
-      en: 'Travel with a free mind, your belongings in good hands.'
+      fr: 'Voyagez l\'esprit libre, vos effets personnels en sécurité.',
+      en: 'Travel with a free mind, your belongings safe.'
     },
     description: {
-      fr: 'Nous organisons le transfert sécurisé de vos bagages, en France comme à l\'international. De la prise en charge jusqu\'à la livraison, chaque étape est gérée avec rigueur et discrétion afin de vous offrir un déplacement fluide, sans contrainte logistique. Votre confort reste notre priorité.',
-      en: 'We organize the secure transfer of your luggage, in France and internationally. From collection to delivery, each step is managed with rigor and discretion to offer you a smooth journey without logistical constraints. Your comfort remains our priority.'
+      fr: 'Nous organisons le transfert sécurisé de vos bagages. De la prise en charge à la livraison, chaque étape est gérée avec rigueur et discrétion afin de vous offrir un déplacement fluide sans contrainte logistique.',
+      en: 'We organize the secure transfer of your luggage. From collection to delivery, each step is managed with rigor and discretion to offer you a smooth journey without logistical constraints.'
     },
-    image: '/assets/images/services/transfert-bagages.jpg',
+    image: '/assets/images/services/bagages.jpg',
     category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
-    id: 'shooting',
+    id: 'chauffeurs',
     title: {
-      fr: 'Shooting Photo',
-      en: 'Photo Shooting'
+      fr: 'Chauffeurs Privés',
+      en: 'Private Chauffeurs'
     },
     subtitle: {
-      fr: 'Capturer l\'instant avec justesse et élégance.',
-      en: 'Capturing the moment with accuracy and elegance.'
+      fr: 'Des déplacements fluides, sécurisés et élégants.',
+      en: 'Smooth, secure, and elegant travels.'
     },
     description: {
-      fr: 'Nous organisons des shootings photo pensés comme de véritables expériences visuelles. Pour un événement, un projet personnel ou une image de marque, chaque séance est préparée avec soin afin de produire des images raffinées et naturelles. Nous proposons également des prises de vue style paparazzi, idéales pour capturer des instants spontanés et authentiques, tout en conservant une esthétique élégante et immersive.',
-      en: 'We organize photo shoots designed as true visual experiences. For an event, a personal project, or a brand image, each session is carefully prepared to produce refined and natural images. We also offer paparazzi-style shoots, ideal for capturing spontaneous and authentic moments while maintaining an elegant and immersive aesthetic.'
+      fr: 'Profitez de notre flotte de véhicules haut de gamme avec chauffeurs expérimentés. Que ce soit pour un transfert aéroport, une mise à disposition journalière ou un événement, nous vous garantissons ponctualité et confort absolu.',
+      en: 'Enjoy our fleet of high-end vehicles with experienced chauffeurs. Whether for an airport transfer, daily availability, or an event, we guarantee punctuality and absolute comfort.'
     },
-    image: '/assets/images/services/shooting-photo.jpg',
-    category: { fr: 'Événementiel', en: 'Events' }
-  },
-  {
-    id: 'cours-prives',
-    title: {
-      fr: 'Cours Privés',
-      en: 'Private Lessons'
-    },
-    subtitle: {
-      fr: 'Apprendre, progresser ou se perfectionner dans un cadre entièrement personnalisé.',
-      en: 'Learn, progress, or perfect your skills in a fully personalized setting.'
-    },
-    description: {
-      fr: 'Nous organisons des cours privés dans de nombreux domaines : langues, sport, développement personnel ou disciplines spécifiques. Chaque session est pensée selon vos objectifs, avec des intervenants qualifiés et un accompagnement sur mesure. L\'expérience est simple, flexible et adaptée à votre rythme comme à vos attentes.',
-      en: 'We organize private lessons in many areas: languages, sports, personal development, or specific disciplines. Each session is designed according to your objectives, with qualified instructors and personalized support. The experience is simple, flexible, and adapted to your pace and expectations.'
-    },
-    image: '/assets/images/services/cours-prives.jpg',
+    image: '/assets/images/services/chauffeurs.jpg',
     category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
     id: 'dog-sitting',
     title: {
-      fr: 'Dog Sitting & Baby Sitting',
-      en: 'Dog Sitting & Baby Sitting'
+      fr: 'Dog Sitting',
+      en: 'Dog Sitting'
     },
     subtitle: {
-      fr: 'Une présence de confiance pour ceux qui comptent le plus.',
-      en: 'A trusted presence for those who matter most.'
+      fr: 'Une présence de confiance pour vos compagnons.',
+      en: 'A trusted presence for your companions.'
     },
     description: {
-      fr: 'Nous proposons des services de garde pour enfants et animaux de compagnie, assurés par des intervenants sélectionnés pour leur sérieux et leur sens des responsabilités. À domicile ou selon vos besoins, chaque prise en charge se fait avec attention, bienveillance et discrétion, afin de vous offrir une tranquillité d\'esprit totale.',
-      en: 'We offer childcare and pet sitting services, provided by professionals selected for their reliability and sense of responsibility. At home or according to your needs, each care is carried out with attention, kindness, and discretion, to offer you total peace of mind.'
+      fr: 'Nous proposons des services de garde pour vos animaux de compagnie, assurés par des intervenants sélectionnés pour leur sérieux. Chaque prise en charge se fait avec attention et bienveillance pour vous offrir une tranquillité d\'esprit.',
+      en: 'We offer pet sitting services, provided by professionals selected for their reliability. Each care is carried out with attention and kindness to offer you peace of mind.'
     },
-    image: '/assets/images/services/dog-baby-sitting.jpg',
+    image: '/assets/images/services/dog-sitting.jpg',
     category: { fr: 'Conciergerie', en: 'Concierge' }
   },
   {
-    id: 'mixologie',
+    id: 'catering',
     title: {
-      fr: 'Mixologie',
-      en: 'Mixology'
+      fr: 'Catering',
+      en: 'Catering'
     },
     subtitle: {
-      fr: 'L\'art du cocktail au service de vos moments d\'exception.',
-      en: 'The art of cocktails serving your exceptional moments.'
+      fr: 'La gastronomie d\'exception pour vos réceptions.',
+      en: 'Exceptional gastronomy for your receptions.'
     },
     description: {
-      fr: 'Nos mixologues créent des expériences cocktails raffinées, pensées pour sublimer vos événements. Entre créations signatures, mise en scène élégante et maîtrise des saveurs, chaque prestation apporte une dimension conviviale et sophistiquée à votre réception. Chaque détail est travaillé pour offrir à vos invités un moment aussi élégant que mémorable.',
-      en: 'Our mixologists create refined cocktail experiences, designed to enhance your events. Between signature creations, elegant staging, and flavor mastery, each service brings a convivial and sophisticated dimension to your reception. Every detail is crafted to offer your guests a moment as elegant as it is memorable.'
+      fr: 'Nos chefs partenaires créent des expériences culinaires raffinées pour sublimer vos événements. Entre créations signatures et maîtrise des saveurs, chaque prestation apporte une dimension conviviale et sophistiquée.',
+      en: 'Our partner chefs create refined culinary experiences to enhance your events. Between signature creations and flavor mastery, each service brings a convivial and sophisticated dimension.'
     },
-    image: '/assets/images/services/mixologie.jpg',
+    image: '/assets/images/services/catering.jpg',
     category: { fr: 'Gastronomie', en: 'Gastronomy' }
   },
   {
-    id: 'animation',
+    id: 'livraison',
     title: {
-      fr: 'Animation',
-      en: 'Entertainment'
+      fr: 'Livraison & Shopping',
+      en: 'Delivery & Shopping'
     },
     subtitle: {
-      fr: 'Donner du rythme, de l\'énergie et une véritable atmosphère à vos événements.',
-      en: 'Giving rhythm, energy, and a true atmosphere to your events.'
+      fr: 'Répondre à toutes vos envies dans les meilleurs délais.',
+      en: 'Fulfilling all your desires in the shortest time.'
     },
     description: {
-      fr: 'Nous concevons des animations adaptées à chaque occasion afin de créer des moments vivants et mémorables. Artistes, performances, expériences interactives ou concepts originaux : chaque animation est pensée pour enrichir l\'événement, surprendre les invités et renforcer l\'expérience globale.',
-      en: 'We design entertainment adapted to each occasion to create lively and memorable moments. Artists, performances, interactive experiences, or original concepts: each entertainment is designed to enrich the event, surprise guests, and strengthen the overall experience.'
+      fr: 'Que vous ayez besoin d\'une livraison express, de faire réaliser vos achats de luxe ou de trouver un objet rare, notre service s\'occupe de tout avec la plus grande efficacité et discrétion.',
+      en: 'Whether you need express delivery, luxury shopping done for you, or to find a rare item, our service takes care of everything with the utmost efficiency and discretion.'
     },
-    image: '/assets/images/services/animation.jpg',
+    image: '/assets/images/services/livraison.jpg',
+    category: { fr: 'Conciergerie', en: 'Concierge' }
+  },
+  {
+    id: 'picnic',
+    title: {
+      fr: 'Picnic de Luxe',
+      en: 'Luxury Picnic'
+    },
+    subtitle: {
+      fr: 'Une parenthèse bucolique et raffinée.',
+      en: 'A bucolic and refined interlude.'
+    },
+    description: {
+      fr: 'Nous organisons des piques-niques haut de gamme dans des cadres idylliques. Profitez d\'un moment hors du temps avec une mise en scène élégante, un confort absolu et des mets d\'exception préparés pour vous.',
+      en: 'We organize high-end picnics in idyllic settings. Enjoy a timeless moment with an elegant staging, absolute comfort, and exceptional dishes prepared for you.'
+    },
+    image: '/assets/images/services/picnic.jpg',
     category: { fr: 'Événementiel', en: 'Events' }
   }
 ];

@@ -8,8 +8,8 @@
     "decouvrir": "Discover"
   },
   "hero": {
-    "subtitle": "Event & Concierge",
-    "title": "High-end",
+    "subtitle": "High-end",
+    "title": "Event & Concierge",
     "tagline": "Because your clients don't settle for luxury, we offer them the exceptional"
   },
   "valeurs": {
@@ -47,9 +47,10 @@
     "voir_photos": "See photos"
   },
   "portfolio": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Our Portfolio",
-    "intro_text": "Our past work speaks to our expertise: meticulously crafted services and events that leave a lasting impression",
+    "hero_label": "ACHIEVEMENTS",
+    "hero_title_1": "Our",
+    "hero_title_2": "Portfolio",
+    "intro_text": "Our creations bear witness to our know-how and our passion.",
     "filters": {
       "all": "All",
       "privatisation": "Venue Privatization",
@@ -69,11 +70,13 @@
     "button": "Contact us"
   },
   "contact": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Let's bring your ideas to life",
-    "info_title": "Get in touch",
+    "hero_subtitle": "Let's bring your ideas to life",
+    "hero_title": "Contact",
+    "hero_right_text": "Let's talk about your needs",
+    "availability_lbl": "AVAILABILITY",
+    "info_subtitle": "Get in touch",
+    "info_title": "Let's discuss your project",
     "hero_text": "Our team will always be happy to create what you or your clients need.",
-    "availability": "Available 7 days a week",
     "form_title": "Let's talk about your needs",
     "form_name": "Full name",
     "form_email": "Email",

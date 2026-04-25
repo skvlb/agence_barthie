@@ -18,29 +18,24 @@
   <nav id="navbar"></nav>
 
   <!-- ========== HERO ========== -->
-  <section id="hero" class="hero hero--page">
+  <section id="hero" class="hero hero--portfolio">
     <div class="hero__image-wrapper">
-      <div class="hero__image" style="background-image: url('/assets/images/hero/portfolio-hero.jpg');"></div>
+      <img src="/assets/images/hero/louvre-hero-new.jpeg" alt="Portfolio" class="hero__image" />
       <div class="hero__overlay"></div>
     </div>
-    <div class="hero__content">
-      <p class="hero__subtitle reveal" data-i18n="portfolio.hero_subtitle">Agence Barthié</p>
-      <h1 class="hero__title reveal" data-i18n="portfolio.hero_title">Notre Portfolio</h1>
-    </div>
-  </section>
-
-  <!-- ========== INTRO ========== -->
-  <section id="portfolio-intro" class="section section--portfolio-intro">
-    <div class="container">
-      <p class="portfolio-intro__text reveal" data-i18n="portfolio.intro_text">Nos réalisations témoignent de notre savoir-faire : des prestations soignées et des évènements qui marquent les esprits</p>
-    </div>
-  </section>
-
-  <!-- ========== FILTRES ========== -->
-  <section id="portfolio-filters" class="section section--portfolio-filters">
-    <div class="container">
-      <div id="filter-buttons" class="filter-buttons">
-        <!-- Rempli dynamiquement par portfolio.js -->
+    <div class="hero__content-container container">
+      <div class="hero__title-block">
+        <div class="hero__label reveal">
+          <span class="hero__label-line"></span>
+          <span class="hero__label-text" data-i18n="portfolio.hero_label">RÉALISATIONS</span>
+        </div>
+        <h1 class="hero__title reveal">
+          <span class="hero__title-part hero__title-part--normal" data-i18n="portfolio.hero_title_1">Notre</span><br/>
+          <span class="hero__title-part hero__title-part--italic" data-i18n="portfolio.hero_title_2">Portfolio</span>
+        </h1>
+      </div>
+      <div class="hero__text-block reveal" style="transition-delay: 0.2s">
+        <p class="hero__intro-text" data-i18n="portfolio.intro_text">Nos créations témoignent de notre savoir-faire et de notre passion.</p>
       </div>
     </div>
   </section>

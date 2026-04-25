@@ -8,8 +8,8 @@
     "decouvrir": "Découvrir"
   },
   "hero": {
-    "subtitle": "Event & Conciergerie",
-    "title": "Haut de gamme",
+    "subtitle": "Haut de gamme",
+    "title": "Event & Conciergerie",
     "tagline": "Parce que vos clients ne se contentent pas du luxe, nous leur offrons l'exception"
   },
   "valeurs": {
@@ -47,9 +47,11 @@
     "voir_photos": "Voir les photos"
   },
   "portfolio": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Notre Portfolio",
-    "intro_text": "Nos réalisations témoignent de notre savoir-faire : des prestations soignées et des évènements qui marquent les esprits",
+    "hero_label": "RÉALISATIONS",
+    "hero_title_1": "Notre",
+    "hero_title_2": "Portfolio",
+    "intro_text": "Nos créations témoignent de notre savoir-faire et de notre passion.",
+    "all": "Tous",
     "filters": {
       "all": "Tous",
       "privatisation": "Privatisation de Lieux",
@@ -69,11 +71,13 @@
     "button": "Nous contacter"
   },
   "contact": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Donnons vie à vos idées",
-    "info_title": "Prendre contact",
+    "hero_subtitle": "Donnons vie à vos idées",
+    "hero_title": "Contact",
+    "hero_right_text": "Parlons de vos besoins",
+    "availability_lbl": "DISPONIBILITÉ",
+    "info_subtitle": "Prendre contact",
+    "info_title": "Discutons de votre projet",
     "hero_text": "Notre équipe sera toujours ravie de créer ce dont vous ou vos clients avez besoin.",
-    "availability": "Disponible 7j/7",
     "form_title": "Parlons de vos besoins",
     "form_name": "Nom complet",
     "form_email": "Email",

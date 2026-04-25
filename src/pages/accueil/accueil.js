@@ -19,17 +19,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Handle clicks for 3D flip and portfolio redirection
     carousel.addEventListener('click', (e) => {
-      // Check if clicked on the "Voir les photos" button
       if (e.target.closest('.service-card__link')) {
-        return; // Let the default anchor click happen
+        return;
       }
-
-      // Otherwise, toggle the flip state of the card
       const card = e.target.closest('.service-card');
       if (card) {
         card.classList.toggle('is-flipped');
       }
     });
+
+    // Auto-scroll logic
+    let scrollInterval;
+    const startAutoScroll = () => {
+      scrollInterval = setInterval(() => {
+        // If reached the end, loop back to start
+        if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 10) {
+          carousel.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          // Scroll by one card width + gap
+          const card = carousel.querySelector('.service-card');
+          if (card) {
+            const cardWidth = card.offsetWidth;
+            const gap = parseInt(window.getComputedStyle(carousel).gap) || 32;
+            carousel.scrollBy({ left: cardWidth + gap, behavior: 'smooth' });
+          }
+        }
+      }, 3500);
+    };
+
+    startAutoScroll();
+    
+    // Pause on hover or touch to allow the user to read or flip the cards
+    carousel.addEventListener('mouseenter', () => clearInterval(scrollInterval));
+    carousel.addEventListener('mouseleave', startAutoScroll);
+    carousel.addEventListener('touchstart', () => clearInterval(scrollInterval), {passive: true});
   }
 
   // Initialize portfolio preview
