@@ -2,6 +2,10 @@
    CONTACT PAGE – Page-specific styles
    ============================================================ */
 
+.hero--contact .hero__image {
+  object-position: center 90%;
+}
+
 /* Hero Contact */
 .hero--contact .hero__content--split {
   display: flex;
@@ -53,10 +57,12 @@
     align-items: flex-start;
     gap: 3rem;
   }
+
   .hero__split-right {
     align-items: flex-start;
     text-align: left;
   }
+
   .hero__availability {
     align-items: flex-start;
   }
