@@ -5,6 +5,7 @@
 /* Hero home specific */
 .hero--home .hero__image {
   filter: brightness(0.6);
+  object-position: center 60%;
 }
 
 .hero--home.is-loaded .hero__content {
