@@ -29,9 +29,12 @@
     "clients_title": "We have operated for"
   },
   "agence": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Our Agency",
-    "intro_title": "Agence Barthié",
+    "hero_label": "OUR STORY",
+    "hero_title_1": "Our",
+    "hero_title_2": "Agency",
+    "hero_right_text": "The story of a vision, of a passion for excellence.",
+    "intro_title_1": "Agence",
+    "intro_title_2": "Barthié",
     "intro_p1": "Agence Barthié was founded by Corentin Barthié, whose background was built in Parisian palaces. Ritz, Plaza, Peninsula... So many places where he learned that perfection is never an extra:",
     "intro_quote": "It is the silent foundation upon which everything rests, like a silver tray that refuses to tremble.",
     "intro_p2": "At a very young age, he discovered the demands of flawless service, working with international clients and wealthy families, where every detail becomes a language and every gesture a commitment. It is in this demanding environment that his conviction was born: these standards of excellence must be accessible to events that claim true luxury.",
