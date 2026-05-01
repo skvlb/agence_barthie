@@ -42,3 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Re-run translatePage to catch dynamically injected elements (Navbar, Footer)
   translatePage();
 });
+
+window.addEventListener('load', () => {
+  document.body.classList.add('is-loaded');
+});
