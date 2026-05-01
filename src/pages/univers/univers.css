@@ -2,21 +2,124 @@
    UNIVERS PAGE – Page-specific styles
    ============================================================ */
 
-.section--univers-intro {
-  background: var(--color-bg-alt);
-  padding: var(--space-xl) 0;
-  text-align: center;
+/* Nouveau Hero Univers */
+.hero--univers {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  min-height: 500px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: var(--space-xl);
 }
 
-.univers-intro__text {
-  font-family: var(--font-accent);
-  font-size: var(--text-md);
-  color: var(--color-text);
-  line-height: 1.9;
-  max-width: 900px;
-  margin: 0 auto;
+.hero--univers .hero__image-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.hero--univers .hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  animation: kenBurns 20s linear infinite alternate;
+}
+
+.hero--univers .hero__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(20,20,20,0.6) 0%, rgba(20,20,20,0.2) 40%, rgba(20,20,20,0.85) 100%);
+  z-index: 1;
+}
+
+.hero--univers .hero__content-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: var(--space-xl);
+  padding: 0 var(--space-2xl);
+}
+
+.hero--univers .hero__title {
+  font-family: 'Didot', serif;
+  font-size: clamp(3rem, 6vw, 5rem);
+  line-height: 1.1;
+  color: var(--color-white);
+  margin: 0;
+  font-weight: 400;
+}
+
+.hero__title-part--normal {
+  font-family: 'Didot', serif;
+}
+
+.hero__title-part--italic {
+  font-family: 'Didot', serif;
+  font-style: italic;
+  color: var(--color-accent);
+}
+
+.hero__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.hero__label-line {
+  width: 25px;
+  height: 1px;
+  background-color: var(--color-accent);
+}
+
+.hero__label-text {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: var(--color-accent);
+}
+
+.hero__text-block {
+  text-align: right;
+  padding-bottom: var(--space-xs);
+  max-width: 50%;
+}
+
+.hero__intro-text {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .hero--univers .hero__content-container {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: var(--space-md);
+    padding: 0 var(--space-lg);
+  }
+  .hero__text-block {
+    text-align: left;
+    max-width: 100%;
+  }
 }
 
 .section--services {
   padding: var(--space-section) 0;
+  padding-top: var(--space-2xl);
 }

@@ -41,8 +41,9 @@
     "founder_role": "Creative Director – Event Experience"
   },
   "univers": {
-    "hero_subtitle": "Agence Barthié",
-    "hero_title": "Our Universes",
+    "hero_label": "EXPERTISE",
+    "hero_title_1": "Our",
+    "hero_title_2": "Universes",
     "intro_text": "We articulate our offers around two distinct areas of expertise: a bespoke private concierge service, ensuring a precise and proactive response to every request, and exceptional event services: high-end catering, premium reception, and luxury orchestration, executed with impeccable exactness.",
     "voir_photos": "See photos"
   },
