@@ -168,13 +168,14 @@
 
 .histoire-grid__highlight {
   font-family: var(--font-accent);
-  font-size: var(--text-lg);
+  font-size: var(--text-xl); /* Légèrement plus grand pour plus d'impact */
   font-style: italic;
   color: var(--color-accent);
   text-align: center;
-  margin: var(--space-xl) 0;
+  margin: var(--space-2xl) 0 !important; /* Marge forcée pour un centrage parfait entre les paragraphes */
   letter-spacing: 0.05em;
   opacity: 0.9;
+  display: block;
 }
 
 /* Signature Fondateur */

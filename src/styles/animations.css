@@ -76,3 +76,8 @@
   0%, 100% { border-color: var(--color-border); }
   50% { border-color: var(--color-primary); }
 }
+
+@keyframes kenBurns {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
+}

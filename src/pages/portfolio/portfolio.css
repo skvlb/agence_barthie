@@ -186,6 +186,26 @@
   user-select: none;
 }
 
+/* Watermark in GLightbox overlay */
+.gslide-media {
+  position: relative !important;
+}
+
+.glightbox-watermark {
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  width: 200px !important;
+  max-width: 200px !important;
+  height: auto !important;
+  opacity: 0.15 !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+  user-select: none !important;
+  object-fit: contain !important;
+}
+
 @media (max-width: 1024px) {
   .portfolio-grid {
     columns: 2;
@@ -195,5 +215,9 @@
 @media (max-width: 640px) {
   .portfolio-grid {
     columns: 1;
+  }
+  .glightbox-watermark {
+    width: 120px !important;
+    max-width: 120px !important;
   }
 }

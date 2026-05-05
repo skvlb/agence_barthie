@@ -144,15 +144,15 @@ export const services = [
   {
     id: 'picnic',
     title: {
-      fr: 'Picnic de Luxe',
-      en: 'Luxury Picnic'
+      fr: 'Picnics de Luxe',
+      en: 'Luxury Picnics'
     },
     subtitle: {
       fr: 'Une parenthèse bucolique et raffinée.',
       en: 'A bucolic and refined interlude.'
     },
     description: {
-      fr: 'Nous organisons des piques-niques haut de gamme dans des cadres idylliques. Profitez d\'un moment hors du temps avec une mise en scène élégante, un confort absolu et des mets d\'exception préparés pour vous.',
+      fr: 'Nous organisons des Picnics haut de gamme dans des cadres idylliques. Profitez d\'un moment hors du temps avec une mise en scène élégante, un confort absolu et des mets d\'exception préparés pour vous.',
       en: 'We organize high-end picnics in idyllic settings. Enjoy a timeless moment with an elegant staging, absolute comfort, and exceptional dishes prepared for you.'
     },
     image: '/assets/images/services/picnic.jpg',

@@ -102,7 +102,7 @@
   --radius-full: 9999px;
 
   /* ---- Z-index ---- */
-  --z-cursor: 9999;
+  --z-cursor: 9999999;
   --z-navbar: 1000;
   --z-modal: 900;
   --z-scroll-progress: 800;

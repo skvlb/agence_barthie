@@ -2,8 +2,25 @@
    CONTACT PAGE – Page-specific styles
    ============================================================ */
 
-.hero--contact .hero__image {
-  object-position: center 90%;
+/* Hero Contact - Logo Background */
+.hero__image-wrapper--logo {
+  background-color: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__image--logo {
+  width: auto;
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+  opacity: 0.4; /* Opacité subtile pour le fond */
+  animation: kenBurns 20s linear infinite alternate;
+}
+
+.hero__overlay--dark {
+  background: linear-gradient(to bottom, rgba(18,22,18,0.5) 0%, rgba(18,22,18,0.85) 100%);
 }
 
 /* Hero Contact */

@@ -37,15 +37,11 @@ const portfolioItems = [
   { id: 24, image: '/assets/images/portfolio/portfolio-24.jpg', category: 'privatisation', title: 'Le Louvre — Réception' },
   { id: 43, image: '/assets/images/portfolio/portfolio-43.jpg', category: 'privatisation', title: 'Louvre — Salle de réception' },
   { id: 44, image: '/assets/images/portfolio/portfolio-44.jpg', category: 'privatisation', title: 'Louvre — Mise en lumière' },
-  { id: 45, image: '/assets/images/portfolio/portfolio-45.jpg', category: 'privatisation', title: 'Louvre — Vue intérieure' },
   { id: 84, image: '/assets/images/portfolio/portfolio-84.jpg', category: 'privatisation', title: 'Louvre — Galerie' },
   { id: 85, image: '/assets/images/portfolio/portfolio-85.jpg', category: 'privatisation', title: 'Louvre — Perspective' },
   { id: 86, image: '/assets/images/portfolio/portfolio-86.jpg', category: 'privatisation', title: 'Louvre — Grande salle' },
-  { id: 87, image: '/assets/images/portfolio/portfolio-87.jpg', category: 'privatisation', title: 'Louvre — Éclairage' },
   // Arc de Triomphe (4)
-  { id: 3,  image: '/assets/images/portfolio/portfolio-03.jpg', category: 'privatisation', title: 'Arc de Triomphe — Vue privilégiée' },
   { id: 10, image: '/assets/images/portfolio/portfolio-10.jpg', category: 'privatisation', title: 'Arc de Triomphe — Sunset' },
-  { id: 19, image: '/assets/images/portfolio/portfolio-19.jpg', category: 'privatisation', title: 'Arc de Triomphe — Nuit' },
   { id: 46, image: '/assets/images/portfolio/portfolio-46.jpg', category: 'privatisation', title: 'Arc de Triomphe — Panorama' },
   // Péniche (3)
   { id: 5,  image: '/assets/images/portfolio/portfolio-05.jpg', category: 'privatisation', title: 'Péniche — Croisière privée' },
@@ -53,8 +49,6 @@ const portfolioItems = [
   { id: 47, image: '/assets/images/portfolio/portfolio-47.jpg', category: 'privatisation', title: 'Péniche — Soirée sur l\'eau' },
   // Théâtre (4)
   { id: 25, image: '/assets/images/portfolio/portfolio-25.jpg', category: 'privatisation', title: 'Théâtre — Privatisation' },
-  { id: 26, image: '/assets/images/portfolio/portfolio-26.jpg', category: 'privatisation', title: 'Théâtre — Salle privée' },
-  { id: 27, image: '/assets/images/portfolio/portfolio-27.jpg', category: 'privatisation', title: 'Théâtre — Ambiance' },
   { id: 28, image: '/assets/images/portfolio/portfolio-28.jpg', category: 'privatisation', title: 'Théâtre — Événement' },
 
   // ── Catering (30 photos — toutes) ────────────────────────
@@ -71,7 +65,6 @@ const portfolioItems = [
   { id: 53, image: '/assets/images/portfolio/portfolio-53.jpg', category: 'catering', title: 'Catering — Sélection' },
   { id: 54, image: '/assets/images/portfolio/portfolio-54.jpg', category: 'catering', title: 'Catering — Ambiance' },
   { id: 55, image: '/assets/images/portfolio/portfolio-55.jpg', category: 'catering', title: 'Catering — Plats' },
-  { id: 56, image: '/assets/images/portfolio/portfolio-56.jpg', category: 'catering', title: 'Catering — Dressage' },
   { id: 57, image: '/assets/images/portfolio/portfolio-57.jpg', category: 'catering', title: 'Catering — Service' },
   { id: 58, image: '/assets/images/portfolio/portfolio-58.jpg', category: 'catering', title: 'Catering — Décor de table' },
   { id: 59, image: '/assets/images/portfolio/portfolio-59.jpg', category: 'catering', title: 'Catering — Réception' },
@@ -92,8 +85,6 @@ const portfolioItems = [
   { id: 7,  image: '/assets/images/portfolio/portfolio-07.jpg', category: 'chauffeurs', title: 'Chauffeur privé — Paris by night' },
   { id: 23, image: '/assets/images/portfolio/portfolio-23.jpg', category: 'chauffeurs', title: 'Service chauffeur VIP' },
   { id: 34, image: '/assets/images/portfolio/portfolio-34.jpg', category: 'chauffeurs', title: 'Chauffeur — Transport privé' },
-  { id: 35, image: '/assets/images/portfolio/portfolio-35.jpg', category: 'chauffeurs', title: 'Chauffeur — Véhicule premium' },
-  { id: 83, image: '/assets/images/portfolio/portfolio-83.jpg', category: 'chauffeurs', title: 'Chauffeur — Service' },
 
   // ── Dog Sitting (7 photos — toutes) ───────────────────────
   { id: 13, image: '/assets/images/portfolio/portfolio-13.jpg', category: 'dog-sitting', title: 'Dog sitting — Paris' },
@@ -108,7 +99,6 @@ const portfolioItems = [
   { id: 8,  image: '/assets/images/portfolio/portfolio-08.jpg', category: 'livraison', title: 'Livraison florale premium' },
   { id: 18, image: '/assets/images/portfolio/portfolio-18.jpg', category: 'livraison', title: 'Livraison premium' },
   { id: 38, image: '/assets/images/portfolio/portfolio-38.jpg', category: 'livraison', title: 'Livraison — Service express' },
-  { id: 39, image: '/assets/images/portfolio/portfolio-39.jpg', category: 'livraison', title: 'Livraison — Sur mesure' },
   { id: 76, image: '/assets/images/portfolio/portfolio-76.jpg', category: 'livraison', title: 'Livraison — Bouquet' },
   { id: 77, image: '/assets/images/portfolio/portfolio-77.jpg', category: 'livraison', title: 'Livraison — Fleurs' },
   { id: 78, image: '/assets/images/portfolio/portfolio-78.jpg', category: 'livraison', title: 'Livraison — Attention' },
@@ -116,10 +106,8 @@ const portfolioItems = [
   // ── Picnic (6 photos — toutes) ────────────────────────────
   { id: 9,  image: '/assets/images/portfolio/portfolio-09.jpg', category: 'picnic', title: 'Picnic chic — Tour Eiffel' },
   { id: 21, image: '/assets/images/portfolio/portfolio-21.jpg', category: 'picnic', title: 'Picnic luxe — Champ de Mars' },
-  { id: 48, image: '/assets/images/portfolio/portfolio-48.jpg', category: 'picnic', title: 'Picnic — Élégance en plein air' },
   { id: 49, image: '/assets/images/portfolio/portfolio-49.jpg', category: 'picnic', title: 'Picnic — Vue sur Paris' },
   { id: 50, image: '/assets/images/portfolio/portfolio-50.jpg', category: 'picnic', title: 'Picnic — Moment d\'exception' },
-  { id: 88, image: '/assets/images/portfolio/portfolio-88.jpg', category: 'picnic', title: 'Picnic — Champêtre' },
 
   // ── Transfert de Bagages (7 photos — toutes) ──────────────
   { id: 22, image: '/assets/images/portfolio/portfolio-22.jpg', category: 'bagages', title: 'Transfert de bagages' },
@@ -178,7 +166,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // Setup portfolio grid
   const grid = document.getElementById('portfolio-grid');
   if (grid) {
-    grid.innerHTML = portfolioItems.map(item => `
+    // Mélange (shuffle) des photos pour qu'elles soient bien réparties
+    const shuffledItems = [...portfolioItems].sort(() => Math.random() - 0.5);
+
+    grid.innerHTML = shuffledItems.map(item => `
       <a href="${item.image}" class="portfolio-item glightbox reveal" data-gallery="portfolio" data-category="${item.category}">
         <img src="${item.image}" alt="${tObj(item.title)}" class="portfolio-item__image" loading="lazy" />
         <div class="portfolio-item__overlay">
@@ -189,10 +180,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize GLightbox
     if (typeof GLightbox !== 'undefined') {
-      GLightbox({ selector: '.glightbox' });
+      const lightbox = GLightbox({ selector: '.glightbox' });
+      lightbox.on('slide_after_load', (data) => {
+        const { slideNode } = data;
+        if (!slideNode.querySelector('.glightbox-watermark')) {
+          const media = slideNode.querySelector('.gslide-media');
+          if (media) {
+            const img = document.createElement('img');
+            img.src = '/images/logos/logo-ab-full-white.png';
+            img.className = 'glightbox-watermark';
+            media.appendChild(img);
+          }
+        }
+      });
     } else {
       import('glightbox').then(module => {
         const lightbox = module.default({ selector: '.glightbox' });
+        lightbox.on('slide_after_load', (data) => {
+          const { slideNode } = data;
+          if (!slideNode.querySelector('.glightbox-watermark')) {
+            const media = slideNode.querySelector('.gslide-media');
+            if (media) {
+              const img = document.createElement('img');
+              img.src = '/images/logos/logo-ab-full-white.png';
+              img.className = 'glightbox-watermark';
+              media.appendChild(img);
+            }
+          }
+        });
       }).catch(() => {
         console.log('GLightbox not loaded — lightbox disabled');
       });
